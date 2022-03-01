@@ -30,7 +30,7 @@ function Experience({playerSkills}) {
           return (
             <div className="row" key={item}>
               <p>{item[0]}</p>
-              <p>+{item[1]}</p>
+              <p>+{item[1].toLocaleString("en-US")}</p>
             </div>
           )
         })}

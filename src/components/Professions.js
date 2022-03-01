@@ -33,6 +33,14 @@ function Professions({playerSkills, handleProfessionChange}) {
            {PROFESSIONS.elite.map(item => {
             return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</a>
            })}
+           <hr />
+           {PROFESSIONS.forceSensitive.map(item => {
+            return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</a>
+           })}
+           <hr />
+           {PROFESSIONS.jedi.map(item => {
+            return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</a>
+           })}
            </>
         }
       </div>
