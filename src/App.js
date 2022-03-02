@@ -14,8 +14,12 @@ import { SKILLS } from './CONSTANTS'
 
 function App() {
 
-  const [playerSkills, setPlayerSkills] = useState(
-    [    ]);
+  const [playerSkills, setPlayerSkills] = useState(() => {
+    const savedPlayerSkills = localStorage.getItem("playerSkills");
+    const initialValue = JSON.parse(savedPlayerSkills);
+    
+    return initialValue;
+  });
   const [skillPointWarning, setSkillPointWarning] = useState(false)
   const [preReqWarning, setPreReqWarning] = useState(false)
   const [activeSkill, setActiveSkill] = useState('combat_brawler_novice');
@@ -32,6 +36,14 @@ function App() {
       setSkillPointWarning(false)
     }, 2500)
   }, [skillPointWarning])
+
+  useEffect(() => {
+    localStorage.setItem("playerSkills", JSON.stringify(playerSkills));
+  }, [playerSkills])
+
+  useEffect(() => {
+    
+  }, [])
 
   const handleProfessionChange = (newProf) => {
     setActiveProfession(() => newProf)
