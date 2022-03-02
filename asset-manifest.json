@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SWGProfessionCalculator/static/css/main.715e257b.css",
+    "main.js": "/SWGProfessionCalculator/static/js/main.11babbee.js",
+    "index.html": "/SWGProfessionCalculator/index.html",
+    "main.715e257b.css.map": "/SWGProfessionCalculator/static/css/main.715e257b.css.map",
+    "main.11babbee.js.map": "/SWGProfessionCalculator/static/js/main.11babbee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.715e257b.css",
+    "static/js/main.11babbee.js"
+  ]
+}
