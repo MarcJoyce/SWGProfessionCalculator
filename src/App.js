@@ -18,7 +18,7 @@ function App() {
     const savedPlayerSkills = localStorage.getItem("playerSkills");
     const initialValue = JSON.parse(savedPlayerSkills);
     
-    return initialValue;
+    return initialValue || [];
   });
   const [skillPointWarning, setSkillPointWarning] = useState(false)
   const [preReqWarning, setPreReqWarning] = useState(false)
