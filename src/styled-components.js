@@ -4,6 +4,10 @@ export const MainContainer = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column
+    }
 `;
 
 export const SkillContainer = styled.div`
@@ -12,6 +16,13 @@ export const SkillContainer = styled.div`
     width: 60%;
     height: 100%;
     margin: 0 5px;
+
+    @media only screen and (max-width: 768px) {
+       order: 1;
+       width: 100%;
+       height: auto;
+       margin: 0;
+    }
 `;
 
 export const SideContainer = styled.div`
@@ -20,6 +31,10 @@ export const SideContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 5px;
+
+    @media only screen and (max-width: 768px) {
+        order: 2;
+    }
 `;
 
 export const Container = styled.div`
@@ -83,12 +98,6 @@ export const Container = styled.div`
         }
 
         &::-webkit-scrollbar {
-            // background: linear-gradient(90deg, 
-            //     rgba(0, 140, 167, 1) 30%, 
-            //     rgba(0,95,115,1) 30%,
-            //     rgba(0,95,115,1) 70%, 
-            //     rgba(0, 140, 167, 1) 70%
-            //     );
             border-radius: 0 16px 16px 0;
             overflow: hidden;
         }
@@ -226,6 +235,36 @@ export const Container = styled.div`
             text-align: left !important;
         }
     }
+    @media only screen and (max-width: 768px) {
+
+        padding: 2px;
+        margin: 0px;
+
+        &.skillTree {
+            height: auto;
+        }
+
+        .linkContainer {
+            min-height: auto;
+        }
+
+        .skillBranch { 
+            width: 25%;
+        }
+
+        a, p {
+            font-size: 0.6rem;
+        }
+
+        h2 {
+            font-size: 0.8rem;
+            white-space: nowrap;
+        }
+        
+        &.activeSkillCommands, &.activeSkillModifiers {
+            height: auto;
+        }
+    }
 `;
 
 export const SkillBoxContainer = styled.div`
@@ -263,5 +302,10 @@ export const SkillBoxContainer = styled.div`
         font-weight: bold;
         line-height: 1rem;
         color: ${props => props.active ? 'black' : 'white'}
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        padding: 1px;
     }
 `;
