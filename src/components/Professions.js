@@ -1,10 +1,10 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState } from 'react'
 import { ALL_SKILLS_WHICH_PROFESSION, NOVICE_SKILL, PROFESSIONS } from '../CONSTANTS'
 import { Container } from '../styled-components'
 
 function Professions({playerSkills, handleProfessionChange}) {
 
-  const [myProfessions, setMyProfessions] = useState(true);
+  const [myProfessions, setMyProfessions] = useState(false);
 
   const playerProfessions = [...new Set(playerSkills.map(item => {
     return ALL_SKILLS_WHICH_PROFESSION[item]
@@ -22,24 +22,24 @@ function Professions({playerSkills, handleProfessionChange}) {
       <div className="innerContainer professions">
         {myProfessions ? 
           playerProfessions.map(item => {
-            return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>>> {item}</a>
+            return  <button key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>>> {item}</button>
            })
            :
            <>
             {PROFESSIONS.basic.map(item => {
-            return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</a>
+            return  <button key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</button>
            })}
            <hr />
            {PROFESSIONS.elite.map(item => {
-            return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</a>
+            return  <button key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</button>
            })}
            <hr />
            {PROFESSIONS.forceSensitive.map(item => {
-            return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</a>
+            return  <button key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</button>
            })}
            <hr />
            {PROFESSIONS.jedi.map(item => {
-            return  <a key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</a>
+            return  <button key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{playerProfessions.indexOf(item) > -1 ? `>> ${item}` : item}</button>
            })}
            </>
         }

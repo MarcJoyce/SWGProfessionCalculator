@@ -108,7 +108,7 @@ export const Container = styled.div`
         }
     }
 
-    a, p {
+    button, p {
         display: block;
         color: white;
         text-decoration: none;
@@ -119,10 +119,15 @@ export const Container = styled.div`
         white-space: nowrap;
         overflow: hidden;
         min-height: 0;
+        background: none;
+        outline: none;
+        border: none;
     }
 
-    a {
+    button {
         cursor: pointer;
+        width: 100%;
+        text-align: left;
 
         &:hover {
             background-color: #00434c
@@ -150,10 +155,14 @@ export const Container = styled.div`
             width: 50%;
             display: flex;
             justify-content: space-between;
+            padding: 8px;
 
-            a {
-                background-color: red;
-                padding: 8px;
+            button {
+                background-color: rgb(230,0,0);
+                padding: 4px;
+                font-weight: bolder;
+                outline: none;
+                border: none;
                 border-radius: 0 4px 0 4px;
             }
 

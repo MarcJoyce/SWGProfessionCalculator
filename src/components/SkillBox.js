@@ -9,7 +9,7 @@ function SkillBox({data, isActive, handleActiveSkillChange, handleSkillChange}) 
 
   useEffect(() => {
     handleActiveSkillChange(data)
-  },[isHovered])
+  },[isHovered, data, handleActiveSkillChange, handleSkillChange])
 
   const handleSkillChangeClick = (skill) => {
     if (isActive) {

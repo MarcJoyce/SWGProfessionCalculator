@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../styled-components'
-import { COMMAND_NAME, SKILLS, SKILL_MOD } from '../CONSTANTS'
+import { COMMAND_NAME, SKILLS } from '../CONSTANTS'
 
 function ActiveCommandsAndCertifications({activeSkill}) {
 

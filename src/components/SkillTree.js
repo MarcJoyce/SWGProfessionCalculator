@@ -24,7 +24,7 @@ function SkillTree({playerSkills, handleProfessionChange, handleActiveSkillChang
             <span>250</span>
           </div>
           <div>
-            <a onClick={() => handleSkillChange({'action' : 'reset'})}>Reset Char</a>
+            <button onClick={() => handleSkillChange({'action' : 'reset'})}>Reset Char</button>
           </div>
         </div>
 

@@ -82,7 +82,7 @@ function App() {
     for (let i = 0; i <= skillsToAdd.length; i++) {
       const preReqs = getPreReqs(skillsToAdd[i])
       skillsToAdd = [...skillsToAdd, ...preReqs]
-      if (skillsToAdd[skillsToAdd.length - 1] == '') {
+      if (skillsToAdd[skillsToAdd.length - 1] === '') {
         i+= skillsToAdd.length
       }
     }
@@ -111,9 +111,7 @@ function App() {
     })
 
     return merge.indexOf(skill) > -1
-    return false
-    
-
+ 
   }
 
   const removeSkillsFromPlayer = (skill) => {
