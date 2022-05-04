@@ -5,7 +5,7 @@ export const MainContainer = styled.div`
     height: 100vh;
     display: flex;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 968px) {
         flex-direction: column
     }
 `;
@@ -17,7 +17,7 @@ export const SkillContainer = styled.div`
     height: 100%;
     margin: 0 5px;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 968px) {
        order: 1;
        width: 100%;
        height: auto;
@@ -32,7 +32,7 @@ export const SideContainer = styled.div`
     flex-direction: column;
     gap: 5px;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 968px) {
         order: 2;
     }
 `;
@@ -244,7 +244,7 @@ export const Container = styled.div`
             text-align: left !important;
         }
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 968px) {
 
         padding: 2px;
         margin: 0px;
@@ -285,6 +285,7 @@ export const SkillBoxContainer = styled.div`
     border-radius: 0 8px 0 8px;
     border: 2px solid;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: ${props => props.active ? '#00a92e' : '#005f73'};
@@ -313,7 +314,7 @@ export const SkillBoxContainer = styled.div`
         color: ${props => props.active ? 'black' : 'white'}
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 968px) {
         width: 100%;
         padding: 1px;
     }
