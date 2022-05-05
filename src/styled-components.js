@@ -227,6 +227,10 @@ export const Container = styled.div`
             width: 100%;
             text-align: left;
         }
+
+        > p {
+            white-space: normal;
+        }
     }
 
     &.activeSkillCommands { 
@@ -305,7 +309,6 @@ export const SkillBoxContainer = styled.div`
 
     p {
         border: none;
-        width: 100%;
         text-align: center;
         border: none;
         white-space: normal;
