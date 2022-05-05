@@ -25,8 +25,6 @@ function App() {
   const [activeSkill, setActiveSkill] = useState('combat_brawler_novice');
   const [activeProfession, setActiveProfession] = useState('combat_brawler')
 
-  console.log(activeSkill)
-
   useEffect(() => {
     setTimeout(() => {
       setPreReqWarning(false)
