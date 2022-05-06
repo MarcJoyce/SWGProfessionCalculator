@@ -1,37 +1,48 @@
-import React, { useEffect, useState } from 'react'
-import { SKILL_TITLE} from '../CONSTANTS'
-import { SkillBoxContainer } from '../styled-components'
+import React, { useEffect, useState } from "react";
+import { SKILL_TITLE } from "../CONSTANTS";
+import { SkillBoxContainer } from "../styled-components";
 
-
-function SkillBox({data, isActive, handleActiveSkillChange, handleSkillChange}) {
-
-  const [isHovered, setIsHovered] = useState(false)
+function SkillBox({
+  data,
+  isActive,
+  handleActiveSkillChange,
+  handleSkillChange,
+}) {
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    handleActiveSkillChange(data)
-  },[isHovered])
+    handleActiveSkillChange(data);
+  }, [isHovered]);
 
   const handleSkillChangeClick = (skill) => {
     if (isActive) {
       handleSkillChange({
-        'action' : 'remove',
-        'data' : skill
-      })
+        action: "remove",
+        data: skill,
+      });
     } else {
       handleSkillChange({
-        'action' : 'add',
-        'data' : skill
-      })
+        action: "add",
+        data: skill,
+      });
     }
 
-    setIsHovered(true)
+    handleHover()
+  };
+
+  const handleHover = () => {
+    setIsHovered((prev) => !prev)
   }
 
   return (
-    <SkillBoxContainer active={isActive} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onClick={() => handleSkillChangeClick(data)}>
-        <p>{SKILL_TITLE[data]}</p>
+    <SkillBoxContainer
+      active={isActive}
+      onMouseOver={() => handleHover()}
+      onClick={() => handleSkillChangeClick(data)}
+    >
+      <p>{SKILL_TITLE[data]}</p>
     </SkillBoxContainer>
-  )
+  );
 }
 
-export default SkillBox
+export default SkillBox;

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SWGProfessionCalculator/static/css/main.715e257b.css",
-    "main.js": "/SWGProfessionCalculator/static/js/main.fc64dfab.js",
+    "main.js": "/SWGProfessionCalculator/static/js/main.f952890b.js",
     "index.html": "/SWGProfessionCalculator/index.html",
     "main.715e257b.css.map": "/SWGProfessionCalculator/static/css/main.715e257b.css.map",
-    "main.fc64dfab.js.map": "/SWGProfessionCalculator/static/js/main.fc64dfab.js.map"
+    "main.f952890b.js.map": "/SWGProfessionCalculator/static/js/main.f952890b.js.map"
   },
   "entrypoints": [
     "static/css/main.715e257b.css",
-    "static/js/main.fc64dfab.js"
+    "static/js/main.f952890b.js"
   ]
 }
