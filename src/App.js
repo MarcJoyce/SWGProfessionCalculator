@@ -21,15 +21,8 @@ function App() {
     return initialValue || [];
   });
   const [skillPointWarning, setSkillPointWarning] = useState(false)
-  const [preReqWarning, setPreReqWarning] = useState(false)
   const [activeSkill, setActiveSkill] = useState('combat_brawler_novice');
   const [activeProfession, setActiveProfession] = useState('combat_brawler')
-
-  useEffect(() => {
-    setTimeout(() => {
-      setPreReqWarning(false)
-    }, 2500)
-  }, [preReqWarning])
 
   useEffect(() => {
     setTimeout(() => {
@@ -40,10 +33,6 @@ function App() {
   useEffect(() => {
     localStorage.setItem("playerSkills", JSON.stringify(playerSkills));
   }, [playerSkills])
-
-  useEffect(() => {
-    
-  }, [])
 
   const handleProfessionChange = (newProf) => {
     setActiveProfession(() => newProf)
@@ -102,28 +91,23 @@ function App() {
       setSkillPointWarning(() => true)
     }
   }
-
-  const isPreReq = (skill) => {
-    const activePreReqs = playerSkills.map(item => SKILLS[item].preReqs)
-
-    const merge = activePreReqs.reduce((acc, item) => {
-      return [...acc, ...item]
-    })
-
-    return merge.indexOf(skill) > -1
- 
-  }
-
   const removeSkillsFromPlayer = (skill) => {
-     if (isPreReq(skill)) {
-       setPreReqWarning(() => true)
-     } else {
-       const activeSkills = playerSkills
-       const newSkills = activeSkills.filter(item => {
-         return item !== skill
+
+    const activeSkills = playerSkills
+       let removeSkills = [skill]
+       for (let i = 0; i < removeSkills.length; i++) {
+         for (let j = 0; j < activeSkills.length; j++) {
+          const skill = activeSkills[j]
+          const preReqs = getPreReqs(activeSkills[j]);
+          const removeSkill = removeSkills[i]
+          const match = preReqs.includes(removeSkill)
+          if (match) removeSkills.push(skill)
+         }
+       }
+       const newSkills = activeSkills.filter((skill) => {
+         return !removeSkills.includes(skill)
        })
-       setPlayerSkills(() => newSkills)
-     }
+      setPlayerSkills(() => newSkills)
   }
 
   return (
@@ -139,7 +123,6 @@ function App() {
       </SideContainer>
       <SkillContainer>
         <SkillTree 
-          preReqWarning={preReqWarning}
           skillPointWarning={skillPointWarning}
           playerSkills={playerSkills}
           activeProfession={activeProfession}

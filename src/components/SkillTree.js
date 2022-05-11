@@ -5,7 +5,7 @@ import SkillBranch from './SkillBranch'
 import SkillBox from './SkillBox'
 import Link from './Link'
 
-function SkillTree({playerSkills, handleProfessionChange, handleActiveSkillChange, activeProfession, handleSkillChange, skillPointWarning, preReqWarning}) {
+function SkillTree({playerSkills, handleProfessionChange, handleActiveSkillChange, activeProfession, handleSkillChange, skillPointWarning}) {
 
   const profession = ALL_PROFESSIONS[activeProfession]
   const {branch_1, branch_2, branch_3, branch_4} = profession
@@ -15,7 +15,6 @@ function SkillTree({playerSkills, handleProfessionChange, handleActiveSkillChang
     <Container className="skillTree">
         <h2>{SKILL_TITLE[activeProfession]}</h2>
         {skillPointWarning ? <div className="skillPointWarning">NOT ENOUGH SKILLPOINTS</div> : ''}
-        {preReqWarning ? <div className="skillPointWarning">SKILL IS A PRE REQUISITE</div> : ''}
         <div className="skillPoints">
           <div>
             SP: 
