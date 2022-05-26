@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { ALL_SKILLS_WHICH_PROFESSION, NOVICE_SKILL, PROFESSIONS } from '../CONSTANTS'
+import { ALL_SKILLS_WHICH_PROFESSION, NOVICE_SKILL, PROFESSIONS, ALL_SPECIES } from '../CONSTANTS'
 import { Container } from '../styled-components'
 
 function Professions({playerSkills, handleProfessionChange}) {
 
   const [myProfessions, setMyProfessions] = useState(false);
 
-  const playerProfessions = [...new Set(playerSkills.map(item => {
+  const playerProfessions = [...new Set(playerSkills.filter(item => !ALL_SPECIES.includes(item)).map(item => {
     return ALL_SKILLS_WHICH_PROFESSION[item]
   }))].sort()
 

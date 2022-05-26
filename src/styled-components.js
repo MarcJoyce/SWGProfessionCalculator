@@ -135,12 +135,22 @@ export const Container = styled.div`
     }
 
     &.skillTree {
+        position: relative;
         min-width: 100%;
         height: 70%;
         background-color: #0089a5;
         gap: 5px;
         color: white;
         font-weight: bold;
+
+        select { 
+            position: absolute;
+            left: 5px; 
+            background: #0089a5;
+            border: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
 
         .skillPointWarning {
             color: red;

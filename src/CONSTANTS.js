@@ -4399,6 +4399,169 @@ export const EXPERIENCE_TITLES = {
 };
 
 export const SKILLS = {
+  bothan: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      camouflage: 15,
+      cover: 10
+    },
+    schematics: ["_"],
+  },
+  human: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      general_experimentation: 15,
+      leadership: 10
+    },
+    schematics: ["_"],
+  },
+  ithorian: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      advanced_assembly: 10,
+      chassis_assembly: 10,
+      tame_bonus: 10,
+      dizzy_defense: 10,
+      stun_defense: 10,
+      melee_defense: 10,
+      power_systems: 10,
+      shields_assembly: 10
+    },
+    schematics: ["_"],
+  },
+  mon_calamari: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      alert: 15,
+      structure_assembly: 10,
+      weapon_assembly: 10
+    },
+    schematics: ["_"],
+  },
+  rodian: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      blind_defense: 15,
+      onehandmelee_accuracy: 10,
+      twohandmelee_accuracy: 10,
+      weapon_assembly: 10
+    },
+    schematics: ["_"],
+  },
+  sullustan: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      booster_assembly: 10,
+      creature_harvesting: 10,
+      engine_assembly: 10,
+      trapping: 10,
+      weapon_systems: 10
+    },
+    schematics: ["_"],
+  },
+  trandoshan: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      creature_harvesting: 10,
+      melee_defense: 10,
+      regeneration: 1,
+      unarmed_accuracy: 10,
+      unarmed_damage: 15,
+      unarmed_speed: 5
+    },
+    schematics: ["_"],
+  },
+  twilek: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "_"
+    ],
+    skillModifiers: {
+      healing_music_shock: 5,
+      healing_dance_shock: 15,
+      healing_music_wound: 5,
+      healing_dance_wound: 15
+    },
+    schematics: ["_"],
+  },
+  wookiee: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "wookieeroar"
+    ],
+    skillModifiers: {
+      tame_bonus: 10,
+      rescue: 10,
+      trapping: 10,
+      warcry: 10,
+    },
+    schematics: ["_"],
+  },
+  zabrak: {
+    title: "",
+    skillPoints: 0,
+    preReqs: [""],
+    xp: { id: "_", cost: 0 },
+    commands: [
+      "equilibrium",
+      "vitalize"
+    ],
+    skillModifiers: {
+      anti_shock: 5,
+      dizzy_defense: 10,
+      intimidate_defense: 10,
+      stun_defense: 10,
+    },
+    schematics: ["_"],
+  },
   social_entertainer_novice: {
     title: "Novice Entertainer",
     skillPoints: 15,
@@ -15507,3 +15670,5 @@ export const COMMAND_NAME = {
   zip: "Zip",
   zone: "Zone Out",
 };
+
+export const ALL_SPECIES = ['bothan', 'human', 'ithorian', 'mon_calamari', 'rodian', 'sullustan', 'trandoshan', 'twilek', 'wookiee', 'zabrak']

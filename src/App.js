@@ -10,7 +10,7 @@ import Titles from './components/Titles';
 import SkillTree from './components/SkillTree'
 import ActiveSkillModifiers from './components/ActiveSkillModifiers'
 import ActiveCommandsAndCertifications from './components/ActiveCommandsAndCertifications'
-import { SKILLS } from './CONSTANTS'
+import { SKILLS, ALL_SPECIES } from './CONSTANTS'
 
 function App() {
 
@@ -110,6 +110,16 @@ function App() {
       setPlayerSkills(() => newSkills)
   }
 
+  const handleSpeciesChange = (species) => {
+    const activeSkills = playerSkills
+    const newSkills = activeSkills.filter((item) => {
+      return !ALL_SPECIES.includes(item)
+    })
+    newSkills.push(species);
+    setPlayerSkills(() => newSkills);
+  }
+
+
   return (
     <MainContainer>
       <SideContainer>
@@ -123,6 +133,7 @@ function App() {
       </SideContainer>
       <SkillContainer>
         <SkillTree 
+          handleSpeciesChange={handleSpeciesChange}
           skillPointWarning={skillPointWarning}
           playerSkills={playerSkills}
           activeProfession={activeProfession}

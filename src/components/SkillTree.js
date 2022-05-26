@@ -5,7 +5,7 @@ import SkillBranch from './SkillBranch'
 import SkillBox from './SkillBox'
 import Link from './Link'
 
-function SkillTree({playerSkills, handleProfessionChange, handleActiveSkillChange, activeProfession, handleSkillChange, skillPointWarning}) {
+function SkillTree({playerSkills, handleProfessionChange, handleActiveSkillChange, activeProfession, handleSkillChange, skillPointWarning, handleSpeciesChange}) {
 
   const profession = ALL_PROFESSIONS[activeProfession]
   const {branch_1, branch_2, branch_3, branch_4} = profession
@@ -13,6 +13,21 @@ function SkillTree({playerSkills, handleProfessionChange, handleActiveSkillChang
 
   return (
     <Container className="skillTree">
+      <select name="species" id="species" onChange={(e) => {
+        handleSpeciesChange(e.target.value)
+      }}>
+        <option value="" disabled selected>Species:</option>
+        <option value="bothan">Bothan</option>
+        <option value="human">Human</option>
+        <option value="ithorian">Ithorian</option>
+        <option value="mon_calamari">Mon Calamari</option>
+        <option value="rodian">Rodian</option>
+        <option value="sullustan">Sullustan</option>
+        <option value="trandoshan">Trandoshan</option>
+        <option value="twilek">Twi'Lek</option>
+        <option value="wookiee">Wookiee</option>
+        <option value="zabrak">Zabrak</option>
+      </select>
         <h2>{SKILL_TITLE[activeProfession]}</h2>
         {skillPointWarning ? <div className="skillPointWarning">NOT ENOUGH SKILLPOINTS</div> : ''}
         <div className="skillPoints">
