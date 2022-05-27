@@ -1,40 +1,40 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const MainContainer = styled.div`
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 
-    @media only screen and (max-width: 968px) {
-        flex-direction: column
-    }
+  @media only screen and (max-width: 968px) {
+    flex-direction: column;
+  }
 `;
 
 export const SkillContainer = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    height: 100%;
-    margin: 0 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 100%;
+  margin: 0 5px;
 
-    @media only screen and (max-width: 968px) {
-       order: 1;
-       width: 100%;
-       height: auto;
-       margin: 0;
-    }
+  @media only screen and (max-width: 968px) {
+    order: 1;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
 `;
 
 export const SideContainer = styled.div`
-    flex: 1;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 
-    @media only screen and (max-width: 968px) {
-        order: 2;
-    }
+  @media only screen and (max-width: 968px) {
+    order: 2;
+  }
 `;
 
 export const Container = styled.div`
@@ -150,6 +150,7 @@ export const Container = styled.div`
             border: none;
             color: #ffffff;
             font-weight: bold;
+            text-transform: capitalize; 
         }
 
         .skillPointWarning {
@@ -291,44 +292,44 @@ export const Container = styled.div`
 `;
 
 export const SkillBoxContainer = styled.div`
-    width: clamp(100px, 100%, 300px);
-    height: 50px;
-    min-height: 50px;
-    padding: 4px;
-    margin: 1px 0;
-    border-radius: 0 8px 0 8px;
-    border: 2px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: ${props => props.active ? '#00a92e' : '#005f73'};
-    border-color: ${props => props.active ? '#00434c' : '#00434c'};
-    cursor: pointer;
-    overflow: hidden;
+  width: clamp(100px, 100%, 300px);
+  height: 50px;
+  min-height: 50px;
+  padding: 4px;
+  margin: 1px 0;
+  border-radius: 0 8px 0 8px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ${(props) => (props.active ? '#00a92e' : '#005f73')};
+  border-color: ${(props) => (props.active ? '#00434c' : '#00434c')};
+  cursor: pointer;
+  overflow: hidden;
 
-    &:hover {
-        background-color: ${props => props.active ? '#256729' : '#0089a5'};
-        border-color: ${props => props.active ? '#65d775' : '#00434c'};
-        border: 4px 2px;
-
-        p {
-            color: ${props => props.active ? '#e4f75d' : 'white'}
-        }
-    }
+  &:hover {
+    background-color: ${(props) => (props.active ? '#256729' : '#0089a5')};
+    border-color: ${(props) => (props.active ? '#65d775' : '#00434c')};
+    border: 4px 2px;
 
     p {
-        border: none;
-        text-align: center;
-        border: none;
-        white-space: normal;
-        font-weight: bold;
-        line-height: 1rem;
-        color: ${props => props.active ? 'black' : 'white'}
+      color: ${(props) => (props.active ? '#e4f75d' : 'white')};
     }
+  }
 
-    @media only screen and (max-width: 968px) {
-        width: 100%;
-        padding: 1px;
-    }
+  p {
+    border: none;
+    text-align: center;
+    border: none;
+    white-space: normal;
+    font-weight: bold;
+    line-height: 1rem;
+    color: ${(props) => (props.active ? 'black' : 'white')};
+  }
+
+  @media only screen and (max-width: 968px) {
+    width: 100%;
+    padding: 1px;
+  }
 `;
