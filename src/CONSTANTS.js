@@ -14131,6 +14131,24 @@ export const SKILL_MOD = {
   posture_change_up_defense: "Defense Vs. Posture Change (Up)",
   power_systems: "Power Systems",
   power_systems_experimentation: "Power Systems Experimentation",
+  private_unarmed_combat_difficulty: "private_unarmed_combat_difficulty",
+  private_jedi_difficulty: "private_jedi_difficulty",
+  private_pistol_combat_difficulty: "private_pistol_combat_difficulty",
+  private_carbine_combat_difficulty: "private_carbine_combat_difficulty",
+  private_rifle_combat_difficulty: "private_rifle_combat_difficulty",
+  private_polearm_combat_difficulty: "private_polearm_combat_difficulty",
+  private_heavyweapon_combat_difficulty:
+    "private_heavyweapon_combat_difficulty",
+  private_onehandmelee_combat_difficulty:
+    "private_onehandmelee_combat_difficulty",
+  private_twohandmelee_combat_difficulty:
+    "private_twohandmelee_combat_difficulty",
+  private_onehandlightsaber_combat_difficulty:
+    "private_onehandlightsaber_combat_difficulty",
+  private_twohandlightsaber_combat_difficulty:
+    "private_twohandlightsaber_combat_difficulty",
+  private_polearmlightsaber_combat_difficulty:
+    "private_polearmlightsaber_combat_difficulty",
   private_innage_regeneration: "Regeneration",
   private_innate_equilibrium: "Equilibrium",
   private_innate_regeneration: "Regeneration",

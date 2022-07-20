@@ -32,8 +32,12 @@ function SkillModifiers({playerSkills}) {
         {sortedMods.map(item => {
           return (
           <div className="row" key={item}>
-            <p>{item[0]}</p>
-            <p>+{item[1]}</p>
+            <p>
+              {item[0]}
+              {item[0].indexOf("_combat_difficulty") > 0 && ` (CL)`}
+              </p>
+            <p>+{item[1]}
+            {item[0].indexOf("_combat_difficulty")>0 &&` (${Math.floor(Math.min(25,item[1]/100+1))})`}</p>
           </div>
           )
         })}
