@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <title>Download CSV file</title>
+  </head>
+
+  <script>
+    const inputNumber = document.querySelector('input').value;
+
+    const random = (min, max) => {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    };
+
+    const setTitle = () => {
+      const titleArray = ['dr', 'miss', 'mr', 'mrs', 'ms', 'other', 'sir'];
+      return titleArray[random(0, titleArray.length - 1)];
+    };
+
+    const createCSVArray = new Array(inputNumber).map((row) => {
+      return [
+        //title
+        setTitle,
+        //forename
+        setForename
+      ];
+    });
+
+    var csvFileData = [
+      [
+        title,
+        forename,
+        middleName,
+        surname,
+        maidenName,
+        salutation,
+        dateOfBirth,
+        gender,
+        homePhoneNumber,
+        mobilePhoneNumber,
+        workPhoneNumber,
+        emailAddress,
+        maritalStatus,
+        employmentStatus,
+        nationality,
+        externalCustomerReference,
+        externalCustomerReference2,
+        externalCustomerReference3,
+        securityQuestion,
+        securityAnswer,
+        customerStatus,
+        declinedCardStorage,
+        prominentNote,
+        addressType,
+        effectiveFromDate,
+        buildingName,
+        buildingNumber,
+        flatNumber,
+        street,
+        town,
+        county,
+        country,
+        residentialStatus,
+        postcode,
+        employerName,
+        employerPhoneNumber,
+        employerBuildingName,
+        employerBuildingNumber,
+        employerStreet,
+        employerTown,
+        employerCounty,
+        employerCountry,
+        employerPostcode,
+        startDate,
+        occupationBasis,
+        occupationType,
+        jobTitle,
+        salary,
+        salaryFrequency,
+        salaryDay,
+        incomeType,
+        incomeAmount,
+        incomeFrequency,
+        expenditureType,
+        expenditureAmount,
+        expenditureFrequency,
+        cardType,
+        cardHolderName,
+        maskedCardNumber,
+        validFromDate,
+        validToDate,
+        issueNumber,
+        cardToken,
+        cvcAuthorisationCode,
+        threeDAuthentication,
+        sortCode,
+        accountNumber,
+        accountName,
+        dateOpened,
+        isMainBankAccount,
+        loanCost,
+        loanInterestRate,
+        loanProduct,
+        loanFirstPaymentDate,
+        loanNoOfPayments,
+        loanStartDate,
+        applicationId
+      ]
+    ];
+
+    //create a user-defined function to download CSV file
+    function download_csv_file() {
+      //define the heading for each row of the data
+      var csv =
+        'title,forename,middleName,	surname,	maidenName,	salutation,	dateOfBirth,	gender,	homePhoneNumber,	mobilePhoneNumber,	workPhoneNumber,	emailAddress,	maritalStatus,	employmentStatus,nationality,externalCustomerReference,	externalCustomerReference2,	externalCustomerReference3,	securityQuestion,	securityAnswer,	customerStatus,	declinedCardStorage,	prominentNote,	addressType,	effectiveFromDate,	buildingName,	buildingNumber,	flatNumber,	street,	town,	county,	country,	residentialStatus,	postcode,	employerName,	employerPhoneNumber,	employerBuildingName,	employerBuildingNumber,	employerStreet,	employerTown,	employerCounty,	employerCountry,	employerPostcode,	startDate,	occupationBasis,	occupationType,	jobTitle,	salary,	salaryFrequency,	salaryDay,	incomeType,	incomeAmount,	incomeFrequency,	expenditureType,	expenditureAmount,	expenditureFrequency,	cardType,	cardHolderName,	maskedCardNumber,	validFromDate,	validToDate,	issueNumber,	cardToken,	cvcAuthorisationCode,	threeDAuthentication,	sortCode,accountNumber,	accountName,	dateOpened,	isMainBankAccount,	loanCost,	loanInterestRate,	loanProduct,	loanFirstPaymentDate,	loanNoOfPayments,	loanStartDate,	applicationId\n';
+
+      //merge the data with CSV
+    //   csvFileData.forEach(function (row) {
+    //     csv += row.join(',');
+    //     csv += '\n';
+    //   });
+
+    //   //display the created CSV data on the web browser
+    //   document.write(csv);
+
+    //   var hiddenElement = document.createElement('a');
+    //   hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+    //   hiddenElement.target = '_blank';
+
+    //   //provide the name for the CSV file to be downloaded
+    //   hiddenElement.download = 'QA Test Data.csv';
+    //   hiddenElement.click();
+    }
+  </script>
+
+  <body>
+    <h3>Input number then click button to generate CSV</h3>
+    <input type="number" min="1" max="10000" />
+    <!-- create an HTML button to download the CSV file on click -->
+    <button onclick="download_csv_file()">Download CSV File</button>
+    <!-- <button onclick="inputNumber()">Download CSV File</button> -->
+  </body>
+</html>

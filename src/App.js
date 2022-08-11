@@ -68,11 +68,15 @@ function App() {
 
   const addSkillsToPlayer = (skill) => {
     let skillsToAdd = [skill];
-    for (let i = 0; i <= skillsToAdd.length; i++) {
-      const preReqs = getPreReqs(skillsToAdd[i])
-      skillsToAdd = [...skillsToAdd, ...preReqs]
-      if (skillsToAdd[skillsToAdd.length - 1] === '') {
-        i+= skillsToAdd.length
+    for (let i = 0; i < skillsToAdd.length; i++) {
+      if (skillsToAdd[i] === "") {
+        i++
+      } else {
+        const preReqs = getPreReqs(skillsToAdd[i])
+        skillsToAdd = [...skillsToAdd, ...preReqs]
+        if (skillsToAdd[skillsToAdd.length - 1] === '') {
+          i++
+        }
       }
     }
 
@@ -85,7 +89,7 @@ function App() {
     if (hasSkillPoints(newSkillSkillPoints)) {
       const currentSkills = playerSkills
       const newSkills = [...currentSkills, ...filteredSkills]
-  
+
       setPlayerSkills(() => newSkills)
     } else {
       setSkillPointWarning(() => true)
