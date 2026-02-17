@@ -13060,14 +13060,14 @@ combat_bountyhunter_master: {
     private_heavyweapon_combat_difficulty: 100,
     private_carbine_difficulty: 100,
     private_pistol_difficulty: 100,
-    bh_burst_run: 1,
-    saber_break: 2,
+    // bh_burst_run: 1,
+    // saber_break: 2,
   },
   schematics: [""]
 },
 combat_bountyhunter_investigation_01: {
   title: "",
-  skillPoints: 0,
+  skillPoints: 5,
   preReqs: [
     "combat_bountyhunter_novice",
   ],
@@ -13080,14 +13080,14 @@ combat_bountyhunter_investigation_01: {
     droid_find_chance: 70,
     droid_find_speed: 10,
     bounty_mission_level: 1,
-    bh_burst_run: 1,
-    saber_break: 2,
+    // bh_burst_run: 1,
+    // saber_break: 2,
   },
   schematics: [""]
 },
 combat_bountyhunter_investigation_02: {
   title: "",
-  skillPoints: 0,
+  skillPoints: 4,
   preReqs: [
     "combat_bountyhunter_investigation_01",
   ],
@@ -13098,14 +13098,14 @@ combat_bountyhunter_investigation_02: {
   skillModifiers: {
     droid_find_chance: 50,
     droid_find_speed: 40,
-    bh_burst_run: 1,
-    saber_break: 2,
+    // bh_burst_run: 1,
+    // saber_break: 2,
   },
   schematics: [""]
 },
 combat_bountyhunter_investigation_03: {
   title: "",
-  skillPoints: 0,
+  skillPoints: 3,
   preReqs: [
     "combat_bountyhunter_investigation_02",
   ],
@@ -13120,14 +13120,14 @@ combat_bountyhunter_investigation_03: {
     droid_track_speed: 40,
     droid_find_speed: 30,
     bounty_mission_level: 1,
-    bh_burst_run: 1,
-    saber_break: 2,
+    // bh_burst_run: 1,
+    // saber_break: 2,
   },
   schematics: [""]
 },
 combat_bountyhunter_investigation_04: {
   title: "Stalker",
-  skillPoints: 0,
+  skillPoints: 2,
   preReqs: [
     "combat_bountyhunter_investigation_03",
   ],
@@ -13139,8 +13139,8 @@ combat_bountyhunter_investigation_04: {
     droid_tracks: 4,
     droid_track_chance: 40,
     droid_track_speed: 30,
-    bh_burst_run: 1,
-    saber_break: 2,
+    // bh_burst_run: 1,
+    // saber_break: 2,
   },
   schematics: [""]
 },
