@@ -123,8 +123,9 @@ function App() {
     setPlayerSkills(() => newSkills);
   }
 
-
   return (
+    <div>
+      <h1 style={{'color': '#fff', 'padding': '16px'}}>This calculator is unique to the SWGEMU-NAMFS server</h1>
     <MainContainer>
       <SideContainer>
         <Professions 
@@ -144,7 +145,7 @@ function App() {
           handleProfessionChange={handleProfessionChange}
           handleActiveSkillChange={handleActiveSkillChange}
           handleSkillChange={handleSkillChange}
-        />
+          />
         <ActiveSkillModifiers activeSkill={activeSkill}/>
         <ActiveCommandsAndCertifications activeSkill={activeSkill}/> 
       </SkillContainer>
@@ -157,6 +158,7 @@ function App() {
           playerSkills={playerSkills} />
       </SideContainer>
     </MainContainer>
+          </div>
   );
 }
 

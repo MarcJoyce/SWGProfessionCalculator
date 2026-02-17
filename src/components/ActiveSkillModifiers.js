@@ -11,13 +11,14 @@ function ActiveSkillModifiers({activeSkill}) {
       }).filter(item => item[0] !== '').filter(item => item[1] > 0).sort()
 
       const xp = SKILLS[activeSkill].xp.cost;
+      const sp = SKILLS[activeSkill].skillPoints;
 
       const xpType = EXPERIENCE_TITLES[SKILLS[activeSkill].xp.id];
 
   return (
     <Container className="activeSkillModifiers">
         <h2>Skill Modifiers</h2>
-        {xp !== 0 ? <p>This skill box requires {xp.toLocaleString()} of {xpType} xp.</p> : <p>This skill box required no xp</p>}
+        {xp !== 0 ? <p>This skill box requires {xp.toLocaleString()} of {xpType} xp, and {sp} skill point(s).</p> : <p>This skill box required no xp, and {sp} skill point(s).</p>}
         <div className="innerContainer">
             {sortedMods.map(item => {
             return (
