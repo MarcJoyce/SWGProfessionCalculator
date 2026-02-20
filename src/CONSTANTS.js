@@ -16427,9 +16427,7 @@ force_sensitive_heightened_senses_luck_04: {
 force_discipline_light_saber_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "saberPolearmHit1",
@@ -16837,9 +16835,7 @@ force_discipline_light_saber_technique_04: {
 force_discipline_powers_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "animalScare",
@@ -17181,9 +17177,7 @@ force_discipline_powers_push_04: {
 force_discipline_healing_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "healHealthSelf1",
@@ -17503,9 +17497,7 @@ force_discipline_healing_states_04: {
 force_discipline_enhancements_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "forceAbsorb1",
@@ -17816,9 +17808,7 @@ force_discipline_enhancements_synergy_04: {
 force_discipline_defender_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "",

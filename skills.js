@@ -2,9 +2,7 @@ export const skills = {
 social_entertainer_novice: {
   title: "Novice Entertainer",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "private_entertainer_novice",
@@ -323,9 +321,7 @@ social_entertainer_healing_04: {
 outdoors_scout_novice: {
   title: "Novice Scout",
   skillPoints: 5,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "private_scout_novice",
@@ -621,9 +617,7 @@ outdoors_scout_camp_04: {
 science_medic_novice: {
   title: "Novice Medic",
   skillPoints: 5,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "private_medic_novice",
@@ -919,9 +913,7 @@ science_medic_crafting_04: {
 crafting_artisan_novice: {
   title: "Novice Artisan",
   skillPoints: 5,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "private_artisan_novice",
@@ -1219,9 +1211,7 @@ crafting_artisan_survey_04: {
 combat_brawler_novice: {
   title: "Novice Brawler",
   skillPoints: 5,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "private_brawler_novice",
@@ -1665,9 +1655,7 @@ combat_brawler_polearm_04: {
 combat_marksman_novice: {
   title: "Novice Marksman",
   skillPoints: 5,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "private_marksman_novice",
@@ -9962,9 +9950,7 @@ outdoors_squadleader_support_04: {
 social_politician_novice: {
   title: "Novice Politician",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "place_cityhall",
@@ -10248,9 +10234,7 @@ social_politician_urban_04: {
 social_language: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10263,9 +10247,7 @@ social_language: {
 social_language_basic: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10278,9 +10260,7 @@ social_language_basic: {
 social_language_basic_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10293,9 +10273,7 @@ social_language_basic_speak: {
 social_language_basic_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10308,9 +10286,7 @@ social_language_basic_comprehend: {
 social_language_rodian: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10323,9 +10299,7 @@ social_language_rodian: {
 social_language_rodian_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+rodese",
@@ -10338,9 +10312,7 @@ social_language_rodian_speak: {
 social_language_rodian_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10353,9 +10325,7 @@ social_language_rodian_comprehend: {
 social_language_trandoshan: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10368,9 +10338,7 @@ social_language_trandoshan: {
 social_language_trandoshan_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+dosh",
@@ -10383,9 +10351,7 @@ social_language_trandoshan_speak: {
 social_language_trandoshan_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10398,9 +10364,7 @@ social_language_trandoshan_comprehend: {
 social_language_moncalamari: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10413,9 +10377,7 @@ social_language_moncalamari: {
 social_language_moncalamari_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+moncalamarian",
@@ -10428,9 +10390,7 @@ social_language_moncalamari_speak: {
 social_language_moncalamari_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10443,9 +10403,7 @@ social_language_moncalamari_comprehend: {
 social_language_wookiee: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10458,9 +10416,7 @@ social_language_wookiee: {
 social_language_wookiee_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+shyriiwook",
@@ -10473,9 +10429,7 @@ social_language_wookiee_speak: {
 social_language_wookiee_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10488,9 +10442,7 @@ social_language_wookiee_comprehend: {
 social_language_bothan: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10503,9 +10455,7 @@ social_language_bothan: {
 social_language_bothan_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+bothese",
@@ -10518,9 +10468,7 @@ social_language_bothan_speak: {
 social_language_bothan_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10533,9 +10481,7 @@ social_language_bothan_comprehend: {
 social_language_twilek: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10548,9 +10494,7 @@ social_language_twilek: {
 social_language_twilek_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+ryl",
@@ -10563,9 +10507,7 @@ social_language_twilek_speak: {
 social_language_twilek_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10578,9 +10520,7 @@ social_language_twilek_comprehend: {
 social_language_zabrak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10593,9 +10533,7 @@ social_language_zabrak: {
 social_language_zabrak_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+zabrak",
@@ -10608,9 +10546,7 @@ social_language_zabrak_speak: {
 social_language_zabrak_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10623,9 +10559,7 @@ social_language_zabrak_comprehend: {
 social_language_lekku: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "unobtainable", cost: 1 },
   commands: [
     "",
@@ -10638,9 +10572,7 @@ social_language_lekku: {
 social_language_lekku_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "unobtainable", cost: 1 },
   commands: [
     "language+lekku",
@@ -10653,9 +10585,7 @@ social_language_lekku_speak: {
 social_language_lekku_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "unobtainable", cost: 1 },
   commands: [
     "",
@@ -10668,9 +10598,7 @@ social_language_lekku_comprehend: {
 social_language_ithorian: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10683,9 +10611,7 @@ social_language_ithorian: {
 social_language_ithorian_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+ithorian",
@@ -10698,9 +10624,7 @@ social_language_ithorian_speak: {
 social_language_ithorian_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10713,9 +10637,7 @@ social_language_ithorian_comprehend: {
 social_language_sullustan: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10728,9 +10650,7 @@ social_language_sullustan: {
 social_language_sullustan_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "language+sullustan",
@@ -10743,9 +10663,7 @@ social_language_sullustan_speak: {
 social_language_sullustan_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10758,9 +10676,7 @@ social_language_sullustan_comprehend: {
 force_sensitive_combat_prowess_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "fs_combat", cost: 50000 },
   commands: [
     "",
@@ -11031,9 +10947,7 @@ force_sensitive_combat_prowess_melee_speed_04: {
 force_sensitive_enhanced_reflexes_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "fs_reflex", cost: 50000 },
   commands: [
     "",
@@ -11310,9 +11224,7 @@ force_sensitive_enhanced_reflexes_survival_04: {
 force_sensitive_crafting_mastery_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "fs_crafting", cost: 50000 },
   commands: [
     "",
@@ -11583,9 +11495,7 @@ force_sensitive_crafting_mastery_technique_04: {
 force_sensitive_heightened_senses_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [
-    "",
-  ],
+  preReqs: [],
   xp: { id: "fs_senses", cost: 50000 },
   commands: [
     "",
@@ -11864,9 +11774,7 @@ force_sensitive_heightened_senses_luck_04: {
 force_discipline_light_saber_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "saberPolearmHit1",
@@ -12274,9 +12182,7 @@ force_discipline_light_saber_technique_04: {
 force_discipline_powers_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "animalScare",
@@ -12618,9 +12524,7 @@ force_discipline_powers_push_04: {
 force_discipline_healing_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "healHealthSelf1",
@@ -12940,9 +12844,7 @@ force_discipline_healing_states_04: {
 force_discipline_enhancements_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "forceAbsorb1",
@@ -13253,9 +13155,7 @@ force_discipline_enhancements_synergy_04: {
 force_discipline_defender_novice: {
   title: "",
   skillPoints: 8,
-  preReqs: [
-    "force_title_jedi_rank_02",
-  ],
+  preReqs: [],
   xp: { id: "jedi_general", cost: 20000 },
   commands: [
     "",
