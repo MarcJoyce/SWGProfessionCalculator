@@ -2,7 +2,9 @@ export const skills = {
 social_entertainer_novice: {
   title: "Novice Entertainer",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "private_entertainer_novice",
@@ -321,7 +323,9 @@ social_entertainer_healing_04: {
 outdoors_scout_novice: {
   title: "Novice Scout",
   skillPoints: 5,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "private_scout_novice",
@@ -617,7 +621,9 @@ outdoors_scout_camp_04: {
 science_medic_novice: {
   title: "Novice Medic",
   skillPoints: 5,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "private_medic_novice",
@@ -913,7 +919,9 @@ science_medic_crafting_04: {
 crafting_artisan_novice: {
   title: "Novice Artisan",
   skillPoints: 5,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "private_artisan_novice",
@@ -1093,9 +1101,7 @@ crafting_artisan_business_01: {
     "private_artisan_business_1",
     "access_fee",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_artisan_business_02: {
@@ -1109,9 +1115,7 @@ crafting_artisan_business_02: {
     "private_artisan_business_2",
     "premium_auctions",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_artisan_business_03: {
@@ -1211,7 +1215,9 @@ crafting_artisan_survey_04: {
 combat_brawler_novice: {
   title: "Novice Brawler",
   skillPoints: 5,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "private_brawler_novice",
@@ -1655,7 +1661,9 @@ combat_brawler_polearm_04: {
 combat_marksman_novice: {
   title: "Novice Marksman",
   skillPoints: 5,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "private_marksman_novice",
@@ -5948,9 +5956,7 @@ outdoors_bio_engineer_creature_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftDomesticCreatureGroupA"]
 },
 outdoors_bio_engineer_creature_02: {
@@ -5963,9 +5969,7 @@ outdoors_bio_engineer_creature_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftAggressiveCreatureGroupA"]
 },
 outdoors_bio_engineer_creature_03: {
@@ -5978,9 +5982,7 @@ outdoors_bio_engineer_creature_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftDomesticCreatureGroupB"]
 },
 outdoors_bio_engineer_creature_04: {
@@ -5993,9 +5995,7 @@ outdoors_bio_engineer_creature_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftAggressiveCreatureGroupB"]
 },
 outdoors_bio_engineer_tissue_01: {
@@ -6008,9 +6008,7 @@ outdoors_bio_engineer_tissue_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftTissueGroupA"]
 },
 outdoors_bio_engineer_tissue_02: {
@@ -6023,9 +6021,7 @@ outdoors_bio_engineer_tissue_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftTissueGroupB"]
 },
 outdoors_bio_engineer_tissue_03: {
@@ -6038,9 +6034,7 @@ outdoors_bio_engineer_tissue_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftTissueGroupC"]
 },
 outdoors_bio_engineer_tissue_04: {
@@ -6053,9 +6047,7 @@ outdoors_bio_engineer_tissue_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftTissueGroupD"]
 },
 outdoors_bio_engineer_dna_harvesting_01: {
@@ -6229,9 +6221,7 @@ crafting_armorsmith_personal_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorPersonalGroupB"]
 },
 crafting_armorsmith_personal_02: {
@@ -6244,9 +6234,7 @@ crafting_armorsmith_personal_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorPersonalGroupC"]
 },
 crafting_armorsmith_personal_03: {
@@ -6259,9 +6247,7 @@ crafting_armorsmith_personal_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorPersonalGroupD"]
 },
 crafting_armorsmith_personal_04: {
@@ -6274,9 +6260,7 @@ crafting_armorsmith_personal_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorPersonalGroupE"]
 },
 crafting_armorsmith_heavy_01: {
@@ -6289,9 +6273,7 @@ crafting_armorsmith_heavy_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorLightLayersGroupA"]
 },
 crafting_armorsmith_heavy_02: {
@@ -6304,9 +6286,7 @@ crafting_armorsmith_heavy_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorLightLayersGroupB"]
 },
 crafting_armorsmith_heavy_03: {
@@ -6319,9 +6299,7 @@ crafting_armorsmith_heavy_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorLightLayersGroupC"]
 },
 crafting_armorsmith_heavy_04: {
@@ -6334,9 +6312,7 @@ crafting_armorsmith_heavy_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorLightLayersGroupD"]
 },
 crafting_armorsmith_deflectors_01: {
@@ -6349,9 +6325,7 @@ crafting_armorsmith_deflectors_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorShieldsGroupA"]
 },
 crafting_armorsmith_deflectors_02: {
@@ -6364,9 +6338,7 @@ crafting_armorsmith_deflectors_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorShieldsGroupB"]
 },
 crafting_armorsmith_deflectors_03: {
@@ -6379,9 +6351,7 @@ crafting_armorsmith_deflectors_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorShieldsGroupC"]
 },
 crafting_armorsmith_deflectors_04: {
@@ -6394,9 +6364,7 @@ crafting_armorsmith_deflectors_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftArmorShieldsGroupD"]
 },
 crafting_armorsmith_complexity_01: {
@@ -6512,9 +6480,7 @@ crafting_weaponsmith_melee_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponMeleeGroupB"]
 },
 crafting_weaponsmith_melee_02: {
@@ -6527,9 +6493,7 @@ crafting_weaponsmith_melee_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponMeleeGroupC"]
 },
 crafting_weaponsmith_melee_03: {
@@ -6542,9 +6506,7 @@ crafting_weaponsmith_melee_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponMeleeGroupD"]
 },
 crafting_weaponsmith_melee_04: {
@@ -6557,9 +6519,7 @@ crafting_weaponsmith_melee_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponMeleeGroupE"]
 },
 crafting_weaponsmith_firearms_01: {
@@ -6572,9 +6532,7 @@ crafting_weaponsmith_firearms_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponRangedGroupB"]
 },
 crafting_weaponsmith_firearms_02: {
@@ -6587,9 +6545,7 @@ crafting_weaponsmith_firearms_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponRangedGroupC"]
 },
 crafting_weaponsmith_firearms_03: {
@@ -6602,9 +6558,7 @@ crafting_weaponsmith_firearms_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponRangedGroupD"]
 },
 crafting_weaponsmith_firearms_04: {
@@ -6617,9 +6571,7 @@ crafting_weaponsmith_firearms_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftWeaponRangedGroupE"]
 },
 crafting_weaponsmith_munitions_01: {
@@ -6632,9 +6584,7 @@ crafting_weaponsmith_munitions_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftMunitionsGroupB"]
 },
 crafting_weaponsmith_munitions_02: {
@@ -6647,9 +6597,7 @@ crafting_weaponsmith_munitions_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftMunitionsGroupC"]
 },
 crafting_weaponsmith_munitions_03: {
@@ -6662,9 +6610,7 @@ crafting_weaponsmith_munitions_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftMunitionsGroupD"]
 },
 crafting_weaponsmith_munitions_04: {
@@ -6677,9 +6623,7 @@ crafting_weaponsmith_munitions_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftMunitionsGroupE"]
 },
 crafting_weaponsmith_techniques_01: {
@@ -6792,9 +6736,7 @@ crafting_chef_dish_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDishGroupA"]
 },
 crafting_chef_dish_02: {
@@ -6807,9 +6749,7 @@ crafting_chef_dish_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDishGroupB"]
 },
 crafting_chef_dish_03: {
@@ -6822,9 +6762,7 @@ crafting_chef_dish_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDishGroupC"]
 },
 crafting_chef_dish_04: {
@@ -6837,9 +6775,7 @@ crafting_chef_dish_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDishGroupD"]
 },
 crafting_chef_dessert_01: {
@@ -6852,9 +6788,7 @@ crafting_chef_dessert_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDessertGroupA"]
 },
 crafting_chef_dessert_02: {
@@ -6867,9 +6801,7 @@ crafting_chef_dessert_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDessertGroupB"]
 },
 crafting_chef_dessert_03: {
@@ -6882,9 +6814,7 @@ crafting_chef_dessert_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDessertGroupC"]
 },
 crafting_chef_dessert_04: {
@@ -6897,9 +6827,7 @@ crafting_chef_dessert_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDessertGroupD"]
 },
 crafting_chef_drink_01: {
@@ -6912,9 +6840,7 @@ crafting_chef_drink_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDrinkGroupA"]
 },
 crafting_chef_drink_02: {
@@ -6927,9 +6853,7 @@ crafting_chef_drink_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDrinkGroupB"]
 },
 crafting_chef_drink_03: {
@@ -6942,9 +6866,7 @@ crafting_chef_drink_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDrinkGroupC"]
 },
 crafting_chef_drink_04: {
@@ -6957,9 +6879,7 @@ crafting_chef_drink_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftFoodDrinkGroupD"]
 },
 crafting_chef_techniques_01: {
@@ -7073,9 +6993,7 @@ crafting_tailor_casual_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingCasualGroupA"]
 },
 crafting_tailor_casual_02: {
@@ -7088,9 +7006,7 @@ crafting_tailor_casual_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingCasualGroupB"]
 },
 crafting_tailor_casual_03: {
@@ -7103,9 +7019,7 @@ crafting_tailor_casual_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingCasualGroupC"]
 },
 crafting_tailor_casual_04: {
@@ -7118,9 +7032,7 @@ crafting_tailor_casual_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingCasualGroupD"]
 },
 crafting_tailor_field_01: {
@@ -7133,9 +7045,7 @@ crafting_tailor_field_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFieldGroupA"]
 },
 crafting_tailor_field_02: {
@@ -7148,9 +7058,7 @@ crafting_tailor_field_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFieldGroupB"]
 },
 crafting_tailor_field_03: {
@@ -7163,9 +7071,7 @@ crafting_tailor_field_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFieldGroupC"]
 },
 crafting_tailor_field_04: {
@@ -7178,9 +7084,7 @@ crafting_tailor_field_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFieldGroupD"]
 },
 crafting_tailor_formal_01: {
@@ -7193,9 +7097,7 @@ crafting_tailor_formal_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFormalGroupA"]
 },
 crafting_tailor_formal_02: {
@@ -7208,9 +7110,7 @@ crafting_tailor_formal_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFormalGroupB"]
 },
 crafting_tailor_formal_03: {
@@ -7223,9 +7123,7 @@ crafting_tailor_formal_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFormalGroupC"]
 },
 crafting_tailor_formal_04: {
@@ -7238,9 +7136,7 @@ crafting_tailor_formal_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftClothingFormalGroupD"]
 },
 crafting_tailor_production_01: {
@@ -7476,9 +7372,7 @@ crafting_architect_harvesting_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftInstallationGroupA"]
 },
 crafting_architect_harvesting_02: {
@@ -7491,9 +7385,7 @@ crafting_architect_harvesting_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftInstallationGroupB"]
 },
 crafting_architect_harvesting_03: {
@@ -7506,9 +7398,7 @@ crafting_architect_harvesting_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftInstallationGroupC"]
 },
 crafting_architect_harvesting_04: {
@@ -7521,9 +7411,7 @@ crafting_architect_harvesting_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftInstallationGroupD"]
 },
 crafting_architect_blueprints_01: {
@@ -7536,9 +7424,7 @@ crafting_architect_blueprints_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftStructureGroupA"]
 },
 crafting_architect_blueprints_02: {
@@ -7551,9 +7437,7 @@ crafting_architect_blueprints_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftStructureGroupB"]
 },
 crafting_architect_blueprints_03: {
@@ -7566,9 +7450,7 @@ crafting_architect_blueprints_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftStructureGroupC"]
 },
 crafting_architect_blueprints_04: {
@@ -7581,9 +7463,7 @@ crafting_architect_blueprints_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftStructureGroupD"]
 },
 crafting_droidengineer_novice: {
@@ -7632,9 +7512,7 @@ crafting_droidengineer_production_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroidgenmodGroupB"]
 },
 crafting_droidengineer_production_02: {
@@ -7647,9 +7525,7 @@ crafting_droidengineer_production_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroidgenmodGroupC"]
 },
 crafting_droidengineer_production_03: {
@@ -7662,9 +7538,7 @@ crafting_droidengineer_production_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroidgenmodGroupD","craftdroidgenmodGroupDD"]
 },
 crafting_droidengineer_production_04: {
@@ -7677,9 +7551,7 @@ crafting_droidengineer_production_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroidgenmodGroupE"]
 },
 crafting_droidengineer_techniques_01: {
@@ -7692,9 +7564,7 @@ crafting_droidengineer_techniques_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroiddefmodGroupB","craftDroidWoundRepairA"]
 },
 crafting_droidengineer_techniques_02: {
@@ -7707,9 +7577,7 @@ crafting_droidengineer_techniques_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroiddefmodGroupC","craftDroidWoundRepairB"]
 },
 crafting_droidengineer_techniques_03: {
@@ -7722,9 +7590,7 @@ crafting_droidengineer_techniques_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroiddefmodGroupD","craftDroidWoundRepairC"]
 },
 crafting_droidengineer_techniques_04: {
@@ -7737,9 +7603,7 @@ crafting_droidengineer_techniques_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftdroiddefmodGroupE","craftDroidWoundRepairD"]
 },
 crafting_droidengineer_refinement_01: {
@@ -7913,9 +7777,7 @@ crafting_merchant_advertising_01: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_merchant_advertising_02: {
@@ -7928,9 +7790,7 @@ crafting_merchant_advertising_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_merchant_advertising_03: {
@@ -7943,9 +7803,7 @@ crafting_merchant_advertising_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_merchant_advertising_04: {
@@ -7958,9 +7816,7 @@ crafting_merchant_advertising_04: {
   commands: [
     "ad_fees_1",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_merchant_sales_01: {
@@ -7973,9 +7829,7 @@ crafting_merchant_sales_01: {
   commands: [
     "merchant_fees_1",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_merchant_sales_02: {
@@ -7988,9 +7842,7 @@ crafting_merchant_sales_02: {
   commands: [
     "vendor_fees_1",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 crafting_merchant_sales_03: {
@@ -8184,9 +8036,7 @@ combat_smuggler_master: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 combat_smuggler_underworld_01: {
@@ -8214,9 +8064,7 @@ combat_smuggler_underworld_02: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 combat_smuggler_underworld_03: {
@@ -8229,9 +8077,7 @@ combat_smuggler_underworld_03: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 combat_smuggler_underworld_04: {
@@ -8244,9 +8090,7 @@ combat_smuggler_underworld_04: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 combat_smuggler_slicing_01: {
@@ -8259,9 +8103,7 @@ combat_smuggler_slicing_01: {
   commands: [
     "slice_terminals",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 combat_smuggler_slicing_02: {
@@ -8274,9 +8116,7 @@ combat_smuggler_slicing_02: {
   commands: [
     "slice_weaponsbasic",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftSmugglerToolsB"]
 },
 combat_smuggler_slicing_03: {
@@ -8289,9 +8129,7 @@ combat_smuggler_slicing_03: {
   commands: [
     "slice_armor",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 combat_smuggler_slicing_04: {
@@ -8304,9 +8142,7 @@ combat_smuggler_slicing_04: {
   commands: [
     "slice_weaponsadvanced",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: ["craftSmugglerToolsC"]
 },
 combat_smuggler_combat_01: {
@@ -8457,7 +8293,7 @@ combat_bountyhunter_novice: {
 },
 combat_bountyhunter_master: {
   title: "Master Bounty Hunter",
-  skillPoints: 6,
+  skillPoints: 1,
   preReqs: [
     "combat_bountyhunter_investigation_04",
     "combat_bountyhunter_droidcontrol_04",
@@ -8488,7 +8324,7 @@ combat_bountyhunter_master: {
 },
 combat_bountyhunter_investigation_01: {
   title: "",
-  skillPoints: 5,
+  skillPoints: 0,
   preReqs: [
     "combat_bountyhunter_novice",
   ],
@@ -8506,7 +8342,7 @@ combat_bountyhunter_investigation_01: {
 },
 combat_bountyhunter_investigation_02: {
   title: "",
-  skillPoints: 4,
+  skillPoints: 0,
   preReqs: [
     "combat_bountyhunter_investigation_01",
   ],
@@ -8522,7 +8358,7 @@ combat_bountyhunter_investigation_02: {
 },
 combat_bountyhunter_investigation_03: {
   title: "",
-  skillPoints: 3,
+  skillPoints: 0,
   preReqs: [
     "combat_bountyhunter_investigation_02",
   ],
@@ -8542,7 +8378,7 @@ combat_bountyhunter_investigation_03: {
 },
 combat_bountyhunter_investigation_04: {
   title: "Stalker",
-  skillPoints: 2,
+  skillPoints: 0,
   preReqs: [
     "combat_bountyhunter_investigation_03",
   ],
@@ -9681,9 +9517,7 @@ outdoors_squadleader_novice: {
   commands: [
     "sysgroup",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 outdoors_squadleader_master: {
@@ -9777,9 +9611,7 @@ outdoors_squadleader_offense_01: {
   commands: [
     "steadyaim",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 outdoors_squadleader_offense_02: {
@@ -9807,9 +9639,7 @@ outdoors_squadleader_offense_03: {
   commands: [
     "volleyFire",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 outdoors_squadleader_offense_04: {
@@ -9837,9 +9667,7 @@ outdoors_squadleader_defense_01: {
   commands: [
     "formup",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 outdoors_squadleader_defense_02: {
@@ -9882,9 +9710,7 @@ outdoors_squadleader_defense_04: {
   commands: [
     "boostmorale",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 outdoors_squadleader_support_01: {
@@ -9897,9 +9723,7 @@ outdoors_squadleader_support_01: {
   commands: [
     "rally",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 outdoors_squadleader_support_02: {
@@ -9927,9 +9751,7 @@ outdoors_squadleader_support_03: {
   commands: [
     "retreat",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 outdoors_squadleader_support_04: {
@@ -9950,7 +9772,9 @@ outdoors_squadleader_support_04: {
 social_politician_novice: {
   title: "Novice Politician",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "place_cityhall",
@@ -9975,9 +9799,7 @@ social_politician_master: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_fiscal_01: {
@@ -9990,9 +9812,7 @@ social_politician_fiscal_01: {
   commands: [
     "city_map",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_fiscal_02: {
@@ -10022,9 +9842,7 @@ social_politician_fiscal_03: {
   commands: [
     "city_spec_industry",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_fiscal_04: {
@@ -10037,9 +9855,7 @@ social_politician_fiscal_04: {
   commands: [
     "city_spec_research",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_martial_01: {
@@ -10052,9 +9868,7 @@ social_politician_martial_01: {
   commands: [
     "manage_militia",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_martial_02: {
@@ -10083,9 +9897,7 @@ social_politician_martial_03: {
   commands: [
     "city_spec_stronghold",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_martial_04: {
@@ -10098,9 +9910,7 @@ social_politician_martial_04: {
   commands: [
     "place_faction_terminal",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_civic_01: {
@@ -10113,9 +9923,7 @@ social_politician_civic_01: {
   commands: [
     "installMissionTerminal",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_civic_02: {
@@ -10145,9 +9953,7 @@ social_politician_civic_03: {
     "city_spec_entertainer",
     "city_spec_doctor",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_civic_04: {
@@ -10161,9 +9967,7 @@ social_politician_civic_04: {
     "city_spec_missions",
     "city_spec_sample_rich",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_urban_01: {
@@ -10177,9 +9981,7 @@ social_politician_urban_01: {
     "place_streetlamp",
     "place_statue",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_urban_02: {
@@ -10192,9 +9994,7 @@ social_politician_urban_02: {
   commands: [
     "place_fountain",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_politician_urban_03: {
@@ -10234,33 +10034,35 @@ social_politician_urban_04: {
 social_language: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_basic: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_basic_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10273,7 +10075,9 @@ social_language_basic_speak: {
 social_language_basic_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10286,20 +10090,22 @@ social_language_basic_comprehend: {
 social_language_rodian: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_rodian_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+rodese",
@@ -10312,7 +10118,9 @@ social_language_rodian_speak: {
 social_language_rodian_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10325,20 +10133,22 @@ social_language_rodian_comprehend: {
 social_language_trandoshan: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_trandoshan_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+dosh",
@@ -10351,7 +10161,9 @@ social_language_trandoshan_speak: {
 social_language_trandoshan_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10364,20 +10176,22 @@ social_language_trandoshan_comprehend: {
 social_language_moncalamari: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_moncalamari_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+moncalamarian",
@@ -10390,7 +10204,9 @@ social_language_moncalamari_speak: {
 social_language_moncalamari_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10403,20 +10219,22 @@ social_language_moncalamari_comprehend: {
 social_language_wookiee: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_wookiee_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+shyriiwook",
@@ -10429,7 +10247,9 @@ social_language_wookiee_speak: {
 social_language_wookiee_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10442,20 +10262,22 @@ social_language_wookiee_comprehend: {
 social_language_bothan: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_bothan_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+bothese",
@@ -10468,7 +10290,9 @@ social_language_bothan_speak: {
 social_language_bothan_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10481,20 +10305,22 @@ social_language_bothan_comprehend: {
 social_language_twilek: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_twilek_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+ryl",
@@ -10507,7 +10333,9 @@ social_language_twilek_speak: {
 social_language_twilek_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10520,20 +10348,22 @@ social_language_twilek_comprehend: {
 social_language_zabrak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_zabrak_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+zabrak",
@@ -10546,7 +10376,9 @@ social_language_zabrak_speak: {
 social_language_zabrak_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10559,20 +10391,22 @@ social_language_zabrak_comprehend: {
 social_language_lekku: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "unobtainable", cost: 1 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_lekku_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "unobtainable", cost: 1 },
   commands: [
     "language+lekku",
@@ -10585,7 +10419,9 @@ social_language_lekku_speak: {
 social_language_lekku_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "unobtainable", cost: 1 },
   commands: [
     "",
@@ -10598,20 +10434,22 @@ social_language_lekku_comprehend: {
 social_language_ithorian: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_ithorian_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+ithorian",
@@ -10624,7 +10462,9 @@ social_language_ithorian_speak: {
 social_language_ithorian_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10637,20 +10477,22 @@ social_language_ithorian_comprehend: {
 social_language_sullustan: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 social_language_sullustan_speak: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "language+sullustan",
@@ -10663,7 +10505,9 @@ social_language_sullustan_speak: {
 social_language_sullustan_comprehend: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "", cost: 0 },
   commands: [
     "",
@@ -10676,14 +10520,14 @@ social_language_sullustan_comprehend: {
 force_sensitive_combat_prowess_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "fs_combat", cost: 50000 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_combat_prowess_master: {
@@ -10699,9 +10543,7 @@ force_sensitive_combat_prowess_master: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_combat_prowess_ranged_accuracy_01: {
@@ -10947,14 +10789,14 @@ force_sensitive_combat_prowess_melee_speed_04: {
 force_sensitive_enhanced_reflexes_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "fs_reflex", cost: 50000 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_enhanced_reflexes_master: {
@@ -10970,9 +10812,7 @@ force_sensitive_enhanced_reflexes_master: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_enhanced_reflexes_ranged_defense_01: {
@@ -11224,14 +11064,14 @@ force_sensitive_enhanced_reflexes_survival_04: {
 force_sensitive_crafting_mastery_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "fs_crafting", cost: 50000 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_crafting_mastery_master: {
@@ -11247,9 +11087,7 @@ force_sensitive_crafting_mastery_master: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_crafting_mastery_experimentation_01: {
@@ -11495,14 +11333,14 @@ force_sensitive_crafting_mastery_technique_04: {
 force_sensitive_heightened_senses_novice: {
   title: "",
   skillPoints: 0,
-  preReqs: [],
+  preReqs: [
+    "",
+  ],
   xp: { id: "fs_senses", cost: 50000 },
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_heightened_senses_master: {
@@ -11518,9 +11356,7 @@ force_sensitive_heightened_senses_master: {
   commands: [
     "",
   ],
-  skillModifiers: {
-    
-  },
+  skillModifiers: {},
   schematics: [""]
 },
 force_sensitive_heightened_senses_healing_01: {
@@ -11801,7 +11637,7 @@ force_discipline_light_saber_novice: {
     jedi_force_power_max: 200,
     jedi_force_power_regen: 1,
   },
-  schematics: ["craftSaberNovice"]
+  schematics: [""]
 },
 force_discipline_light_saber_master: {
   title: "",
@@ -13498,6 +13334,2135 @@ force_discipline_defender_preternatural_defense_04: {
     private_jedi_difficulty: 125,
     jedi_force_power_max: 175,
     jedi_force_power_regen: 2,
+  },
+  schematics: [""]
+},
+force_rank_light_novice: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "",
+  ],
+  xp: { id: "force_rank_xp", cost: 0 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 5,
+    force_manipulation_light: 5,
+    force_control_light: 5,
+  },
+  schematics: [""]
+},
+force_rank_light_master: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_10",
+  ],
+  xp: { id: "force_rank_xp", cost: 500000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 20,
+    force_manipulation_light: 15,
+    force_control_light: 20,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_novice",
+  ],
+  xp: { id: "force_rank_xp", cost: 10000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 5,
+    force_manipulation_light: 3,
+    force_control_light: 5,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_01",
+  ],
+  xp: { id: "force_rank_xp", cost: 20000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 5,
+    force_manipulation_light: 4,
+    force_control_light: 5,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_02",
+  ],
+  xp: { id: "force_rank_xp", cost: 30000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 5,
+    force_manipulation_light: 4,
+    force_control_light: 5,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_03",
+  ],
+  xp: { id: "force_rank_xp", cost: 40000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 5,
+    force_manipulation_light: 4,
+    force_control_light: 5,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_05: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_04",
+  ],
+  xp: { id: "force_rank_xp", cost: 60000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 10,
+    force_manipulation_light: 5,
+    force_control_light: 10,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_06: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_05",
+  ],
+  xp: { id: "force_rank_xp", cost: 80000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 10,
+    force_manipulation_light: 5,
+    force_control_light: 10,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_07: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_06",
+  ],
+  xp: { id: "force_rank_xp", cost: 100000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 10,
+    force_manipulation_light: 5,
+    force_control_light: 10,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_08: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_07",
+  ],
+  xp: { id: "force_rank_xp", cost: 150000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 15,
+    force_manipulation_light: 10,
+    force_control_light: 15,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_09: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_08",
+  ],
+  xp: { id: "force_rank_xp", cost: 200000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 15,
+    force_manipulation_light: 10,
+    force_control_light: 15,
+  },
+  schematics: [""]
+},
+force_rank_light_rank_10: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_light_rank_09",
+  ],
+  xp: { id: "force_rank_xp", cost: 300000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_light: 15,
+    force_manipulation_light: 10,
+    force_control_light: 15,
+  },
+  schematics: [""]
+},
+force_rank_dark_novice: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "",
+  ],
+  xp: { id: "force_rank_xp", cost: 0 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 5,
+    force_manipulation_dark: 5,
+    force_control_dark: 5,
+  },
+  schematics: [""]
+},
+force_rank_dark_master: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_10",
+  ],
+  xp: { id: "force_rank_xp", cost: 500000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 20,
+    force_manipulation_dark: 15,
+    force_control_dark: 20,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_novice",
+  ],
+  xp: { id: "force_rank_xp", cost: 10000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 5,
+    force_manipulation_dark: 3,
+    force_control_dark: 5,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_01",
+  ],
+  xp: { id: "force_rank_xp", cost: 20000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 5,
+    force_manipulation_dark: 4,
+    force_control_dark: 5,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_02",
+  ],
+  xp: { id: "force_rank_xp", cost: 30000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 5,
+    force_manipulation_dark: 4,
+    force_control_dark: 5,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_03",
+  ],
+  xp: { id: "force_rank_xp", cost: 40000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 5,
+    force_manipulation_dark: 4,
+    force_control_dark: 5,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_05: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_04",
+  ],
+  xp: { id: "force_rank_xp", cost: 60000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 10,
+    force_manipulation_dark: 5,
+    force_control_dark: 10,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_06: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_05",
+  ],
+  xp: { id: "force_rank_xp", cost: 80000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 10,
+    force_manipulation_dark: 5,
+    force_control_dark: 10,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_07: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_06",
+  ],
+  xp: { id: "force_rank_xp", cost: 100000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 10,
+    force_manipulation_dark: 5,
+    force_control_dark: 10,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_08: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_07",
+  ],
+  xp: { id: "force_rank_xp", cost: 150000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 15,
+    force_manipulation_dark: 10,
+    force_control_dark: 15,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_09: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_08",
+  ],
+  xp: { id: "force_rank_xp", cost: 200000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 15,
+    force_manipulation_dark: 10,
+    force_control_dark: 15,
+  },
+  schematics: [""]
+},
+force_rank_dark_rank_10: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_rank_dark_rank_09",
+  ],
+  xp: { id: "force_rank_xp", cost: 300000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    force_power_dark: 15,
+    force_manipulation_dark: 10,
+    force_control_dark: 15,
+  },
+  schematics: [""]
+},
+force_title_jedi_master: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_title_jedi_rank_04",
+  ],
+  xp: { id: "jedi_general", cost: 0 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+force_title_jedi_rank_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_title_jedi_novice",
+  ],
+  xp: { id: "jedi_general", cost: 0 },
+  commands: [
+    "cert_onehandlightsaber_training",
+  ],
+  skillModifiers: {
+    private_onehandlightsaber_combat_difficulty: 500,
+    private_twohandlightsaber_combat_difficulty: 500,
+    private_polearmlightsaber_combat_difficulty: 500,
+  },
+  schematics: ["craftSaberTraining","craftJediTool"]
+},
+force_title_jedi_rank_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_title_jedi_rank_01",
+  ],
+  xp: { id: "jedi_general", cost: 0 },
+  commands: [
+    "cert_onehandlightsaber_gen1",
+    "cert_polearmlightsaber_gen1",
+    "cert_twohandlightsaber_gen1",
+  ],
+  skillModifiers: {
+    jedi_force_power_max: 750,
+    jedi_force_power_regen: 15,
+    onehandlightsaber_accuracy: 50,
+    twohandlightsaber_accuracy: 50,
+    polearmlightsaber_accuracy: 50,
+  },
+  schematics: ["craftSaberNovice"]
+},
+force_title_jedi_rank_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [],
+  xp: { id: "jedi_general", cost: 0 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+force_title_jedi_rank_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "force_title_jedi_rank_03",
+  ],
+  xp: { id: "jedi_general", cost: 0 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+crafting_shipwright_novice: {
+  title: "",
+  skillPoints: 6,
+  preReqs: [
+    "crafting_artisan_engineering_04",
+  ],
+  xp: { id: "crafting_general", cost: 30000 },
+  commands: [
+    "private_shipwright_novice",
+  ],
+  skillModifiers: {
+    chassis_assembly: 10,
+    engine_assembly: 10,
+    booster_assembly: 10,
+    power_systems: 10,
+    weapon_systems: 10,
+    shields_assembly: 10,
+    advanced_assembly: 10,
+    chassis_experimentation: 10,
+    weapon_systems_experimentation: 20,
+    engine_experimentation: 20,
+    booster_experimentation: 20,
+    power_systems_experimentation: 10,
+    shields_experimentation: 10,
+    advanced_ship_experimentation: 10,
+    defense_reverse: 1,
+    propulsion_reverse: 1,
+    engineering_reverse: 1,
+    systems_reverse: 1,
+  },
+  schematics: ["craftShipwrightNoviceGroupA"]
+},
+crafting_shipwright_master: {
+  title: "",
+  skillPoints: 1,
+  preReqs: [
+    "crafting_shipwright_engineering_04",
+    "crafting_shipwright_propulsion_04",
+    "crafting_shipwright_systems_04",
+    "crafting_shipwright_defense_04",
+  ],
+  xp: { id: "shipwright", cost: 200000 },
+  commands: [
+    "private_shipwright_master",
+  ],
+  skillModifiers: {
+    chassis_assembly: 25,
+    chassis_experimentation: 25,
+    weapon_systems_experimentation: 25,
+    weapon_systems: 25,
+    engine_experimentation: 25,
+    engine_assembly: 25,
+    booster_experimentation: 25,
+    booster_assembly: 25,
+    power_systems_experimentation: 25,
+    power_systems: 25,
+    shields_experimentation: 25,
+    shields_assembly: 25,
+    advanced_ship_experimentation: 25,
+    advanced_assembly: 25,
+    defense_reverse: 1,
+    propulsion_reverse: 1,
+    systems_reverse: 1,
+    engineering_reverse: 1,
+  },
+  schematics: ["craftShipwrightMaster"]
+},
+crafting_shipwright_engineering_01: {
+  title: "",
+  skillPoints: 5,
+  preReqs: [
+    "crafting_shipwright_novice",
+  ],
+  xp: { id: "shipwright", cost: 20000 },
+  commands: [
+    "private_shipwright_engineering_1",
+  ],
+  skillModifiers: {
+    chassis_assembly: 10,
+    chassis_experimentation: 10,
+    engineering_reverse: 2,
+  },
+  schematics: ["craftShipwrightEngGroupA"]
+},
+crafting_shipwright_engineering_02: {
+  title: "",
+  skillPoints: 4,
+  preReqs: [
+    "crafting_shipwright_engineering_01",
+  ],
+  xp: { id: "shipwright", cost: 50000 },
+  commands: [
+    "private_shipwright_engineering_2",
+  ],
+  skillModifiers: {
+    chassis_assembly: 15,
+    chassis_experimentation: 15,
+    engineering_reverse: 2,
+  },
+  schematics: ["craftShipwrightEngGroupB"]
+},
+crafting_shipwright_engineering_03: {
+  title: "",
+  skillPoints: 3,
+  preReqs: [
+    "crafting_shipwright_engineering_02",
+  ],
+  xp: { id: "shipwright", cost: 100000 },
+  commands: [
+    "private_shipwright_engineering_3",
+  ],
+  skillModifiers: {
+    chassis_assembly: 20,
+    chassis_experimentation: 20,
+    engineering_reverse: 2,
+  },
+  schematics: ["craftShipwrightEngGroupC"]
+},
+crafting_shipwright_engineering_04: {
+  title: "",
+  skillPoints: 2,
+  preReqs: [
+    "crafting_shipwright_engineering_03",
+  ],
+  xp: { id: "shipwright", cost: 150000 },
+  commands: [
+    "private_shipwright_engineering_4",
+  ],
+  skillModifiers: {
+    chassis_assembly: 20,
+    chassis_experimentation: 20,
+    engineering_reverse: 2,
+  },
+  schematics: ["craftShipwrightEngGroupD"]
+},
+crafting_shipwright_propulsion_01: {
+  title: "",
+  skillPoints: 5,
+  preReqs: [
+    "crafting_shipwright_novice",
+  ],
+  xp: { id: "shipwright", cost: 20000 },
+  commands: [
+    "private_shipwright_propulsion_1",
+  ],
+  skillModifiers: {
+    engine_assembly: 10,
+    booster_assembly: 10,
+    engine_experimentation: 20,
+    booster_experimentation: 20,
+    propulsion_reverse: 2,
+  },
+  schematics: ["craftShipwrightPropulsionGroupA"]
+},
+crafting_shipwright_propulsion_02: {
+  title: "",
+  skillPoints: 4,
+  preReqs: [
+    "crafting_shipwright_propulsion_01",
+  ],
+  xp: { id: "shipwright", cost: 50000 },
+  commands: [
+    "private_shipwright_propulsion_2",
+  ],
+  skillModifiers: {
+    engine_assembly: 15,
+    booster_assembly: 15,
+    engine_experimentation: 25,
+    booster_experimentation: 25,
+    propulsion_reverse: 2,
+  },
+  schematics: ["craftShipwrightPropulsionGroupB"]
+},
+crafting_shipwright_propulsion_03: {
+  title: "",
+  skillPoints: 3,
+  preReqs: [
+    "crafting_shipwright_propulsion_02",
+  ],
+  xp: { id: "shipwright", cost: 100000 },
+  commands: [
+    "private_shipwright_propulsion_3",
+  ],
+  skillModifiers: {
+    engine_assembly: 20,
+    booster_assembly: 20,
+    engine_experimentation: 30,
+    booster_experimentation: 30,
+    propulsion_reverse: 2,
+  },
+  schematics: ["craftShipwrightPropulsionGroupC"]
+},
+crafting_shipwright_propulsion_04: {
+  title: "",
+  skillPoints: 2,
+  preReqs: [
+    "crafting_shipwright_propulsion_03",
+  ],
+  xp: { id: "shipwright", cost: 150000 },
+  commands: [
+    "private_shipwright_propulsion_4",
+  ],
+  skillModifiers: {
+    engine_assembly: 20,
+    booster_assembly: 20,
+    engine_experimentation: 30,
+    booster_experimentation: 30,
+    propulsion_reverse: 2,
+  },
+  schematics: ["craftShipwrightPropulsionGroupD"]
+},
+crafting_shipwright_systems_01: {
+  title: "",
+  skillPoints: 5,
+  preReqs: [
+    "crafting_shipwright_novice",
+  ],
+  xp: { id: "shipwright", cost: 20000 },
+  commands: [
+    "private_shipwright_systems_1",
+  ],
+  skillModifiers: {
+    power_systems: 10,
+    advanced_assembly: 10,
+    power_systems_experimentation: 10,
+    advanced_ship_experimentation: 10,
+    systems_reverse: 2,
+  },
+  schematics: ["craftShipwrightSystemsGroupA"]
+},
+crafting_shipwright_systems_02: {
+  title: "",
+  skillPoints: 4,
+  preReqs: [
+    "crafting_shipwright_systems_01",
+  ],
+  xp: { id: "shipwright", cost: 50000 },
+  commands: [
+    "private_shipwright_systems_2",
+  ],
+  skillModifiers: {
+    power_systems: 15,
+    advanced_assembly: 15,
+    power_systems_experimentation: 15,
+    advanced_ship_experimentation: 15,
+    systems_reverse: 2,
+  },
+  schematics: ["craftShipwrightSystemsGroupB"]
+},
+crafting_shipwright_systems_03: {
+  title: "",
+  skillPoints: 3,
+  preReqs: [
+    "crafting_shipwright_systems_02",
+  ],
+  xp: { id: "shipwright", cost: 100000 },
+  commands: [
+    "private_shipwright_systems_3",
+  ],
+  skillModifiers: {
+    power_systems: 20,
+    advanced_assembly: 20,
+    power_systems_experimentation: 20,
+    advanced_ship_experimentation: 20,
+    systems_reverse: 2,
+  },
+  schematics: ["craftShipwrightSystemsGroupC"]
+},
+crafting_shipwright_systems_04: {
+  title: "",
+  skillPoints: 2,
+  preReqs: [
+    "crafting_shipwright_systems_03",
+  ],
+  xp: { id: "shipwright", cost: 150000 },
+  commands: [
+    "private_shipwright_systems_4",
+  ],
+  skillModifiers: {
+    power_systems: 20,
+    advanced_assembly: 20,
+    power_systems_experimentation: 20,
+    advanced_ship_experimentation: 20,
+    systems_reverse: 2,
+  },
+  schematics: ["craftShipwrightSystemsGroupD"]
+},
+crafting_shipwright_defense_01: {
+  title: "",
+  skillPoints: 5,
+  preReqs: [
+    "crafting_shipwright_novice",
+  ],
+  xp: { id: "shipwright", cost: 20000 },
+  commands: [
+    "private_shipwright_defense_1",
+  ],
+  skillModifiers: {
+    weapon_systems: 10,
+    weapon_systems_experimentation: 20,
+    defense_reverse: 2,
+    shields_assembly: 10,
+    shields_experimentation: 10,
+  },
+  schematics: ["craftShipwrightDefenseGroupA"]
+},
+crafting_shipwright_defense_02: {
+  title: "",
+  skillPoints: 4,
+  preReqs: [
+    "crafting_shipwright_defense_01",
+  ],
+  xp: { id: "shipwright", cost: 50000 },
+  commands: [
+    "private_shipwright_defense_2",
+  ],
+  skillModifiers: {
+    weapon_systems: 15,
+    weapon_systems_experimentation: 25,
+    defense_reverse: 2,
+    shields_assembly: 15,
+    shields_experimentation: 15,
+  },
+  schematics: ["craftShipwrightDefenseGroupB"]
+},
+crafting_shipwright_defense_03: {
+  title: "",
+  skillPoints: 3,
+  preReqs: [
+    "crafting_shipwright_defense_02",
+  ],
+  xp: { id: "shipwright", cost: 100000 },
+  commands: [
+    "private_shipwright_defense_3",
+  ],
+  skillModifiers: {
+    weapon_systems: 20,
+    weapon_systems_experimentation: 30,
+    defense_reverse: 2,
+    shields_assembly: 20,
+    shields_experimentation: 20,
+  },
+  schematics: ["craftShipwrightDefenseGroupC"]
+},
+crafting_shipwright_defense_04: {
+  title: "",
+  skillPoints: 2,
+  preReqs: [
+    "crafting_shipwright_defense_03",
+  ],
+  xp: { id: "shipwright", cost: 150000 },
+  commands: [
+    "private_shipwright_defense_4",
+  ],
+  skillModifiers: {
+    weapon_systems: 20,
+    weapon_systems_experimentation: 30,
+    defense_reverse: 2,
+    shields_assembly: 20,
+    shields_experimentation: 20,
+  },
+  schematics: ["craftShipwrightDefenseGroupD"]
+},
+pilot: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "",
+  ],
+  xp: { id: "", cost: 0 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_novice: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "",
+  ],
+  xp: { id: "", cost: 0 },
+  commands: [
+    "private_rebel_navy_novice",
+    "cert_starships_z95headhunter",
+    "cert_ordnance_level1",
+    "cert_droid_astromech_1",
+    "droidcommand_mutedroid",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_master: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_04",
+    "pilot_rebel_navy_weapons_04",
+    "pilot_rebel_navy_procedures_04",
+    "pilot_rebel_navy_droid_04",
+  ],
+  xp: { id: "space_combat_general", cost: 7500000 },
+  commands: [
+    "private_rebel_navy_master",
+    "cert_starships_bwing",
+    "cert_starships_ykl37r",
+    "cert_ordnance_level9",
+    "cert_ordnance_levelten",
+    "cert_droid_astromech_6",
+    "jstart3",
+    "inspacerr",
+    "cert_starships_firespray",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_starships_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "private_rebel_navy_starships_1",
+    "cert_starships_ywing",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_starships_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_01",
+    "pilot_rebel_navy_weapons_01",
+    "pilot_rebel_navy_procedures_01",
+    "pilot_rebel_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "private_rebel_navy_starships_2",
+    "cert_starships_ywinglongprobe",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_starships_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_02",
+    "pilot_rebel_navy_weapons_02",
+    "pilot_rebel_navy_procedures_02",
+    "pilot_rebel_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "private_rebel_navy_starships_3",
+    "cert_starships_xwing",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_starships_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_03",
+    "pilot_rebel_navy_weapons_03",
+    "pilot_rebel_navy_procedures_03",
+    "pilot_rebel_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "private_rebel_navy_starships_4",
+    "cert_starships_awing",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_weapons_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "cert_ordnance_level2",
+    "cert_ordnance_level3",
+  ],
+  skillModifiers: {
+    missile_launching: 65,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_weapons_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_01",
+    "pilot_rebel_navy_weapons_01",
+    "pilot_rebel_navy_procedures_01",
+    "pilot_rebel_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "cert_ordnance_level4",
+    "cert_ordnance_level5",
+  ],
+  skillModifiers: {
+    missile_launching: 10,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_weapons_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_02",
+    "pilot_rebel_navy_weapons_02",
+    "pilot_rebel_navy_procedures_02",
+    "pilot_rebel_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "cert_ordnance_level6",
+    "cert_ordnance_level7",
+  ],
+  skillModifiers: {
+    missile_launching: 10,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_weapons_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_03",
+    "pilot_rebel_navy_weapons_03",
+    "pilot_rebel_navy_procedures_03",
+    "pilot_rebel_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "cert_ordnance_level8",
+  ],
+  skillModifiers: {
+    missile_launching: 15,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_procedures_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "iffscramble",
+    "jstart1",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_procedures_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_01",
+    "pilot_rebel_navy_weapons_01",
+    "pilot_rebel_navy_procedures_01",
+    "pilot_rebel_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "eshields",
+    "vrepair",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_procedures_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_02",
+    "pilot_rebel_navy_weapons_02",
+    "pilot_rebel_navy_procedures_02",
+    "pilot_rebel_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "jstart2",
+    "inspacerepair",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_procedures_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_03",
+    "pilot_rebel_navy_weapons_03",
+    "pilot_rebel_navy_procedures_03",
+    "pilot_rebel_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "inspacereload",
+    "vrepairother",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_rebel_navy_droid_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "private_rebel_navy_droid_1",
+    "droidcommand_shieldnormalize",
+    "droidcommand_shieldbacktofronttwenty",
+    "droidcommand_shieldfronttobacktwenty",
+    "droidcommand_shieldadjustfrontone",
+    "droidcommand_shieldadjustrearone",
+    "cert_droid_astromech_2",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_droid_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_01",
+    "pilot_rebel_navy_weapons_01",
+    "pilot_rebel_navy_procedures_01",
+    "pilot_rebel_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "private_rebel_navy_droid_2",
+    "droidcommand_shieldbacktofrontfifty",
+    "droidcommand_shieldfronttobackfifty",
+    "droidcommand_shieldadjustfronttwo",
+    "droidcommand_shieldadjustreartwo",
+    "cert_droid_astromech_3",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_droid_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_02",
+    "pilot_rebel_navy_weapons_02",
+    "pilot_rebel_navy_procedures_02",
+    "pilot_rebel_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "private_rebel_navy_droid_3",
+    "droidcommand_shieldbacktofronteighty",
+    "droidcommand_shieldfronttobackeighty",
+    "droidcommand_shieldadjustfrontthree",
+    "droidcommand_shieldadjustrearthree",
+    "cert_droid_astromech_4",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_rebel_navy_droid_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_rebel_navy_starships_03",
+    "pilot_rebel_navy_weapons_03",
+    "pilot_rebel_navy_procedures_03",
+    "pilot_rebel_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "private_rebel_navy_droid_4",
+    "droidcommand_shieldbacktofronthundred",
+    "droidcommand_shieldfronttobackhundred",
+    "droidcommand_shieldadjustfrontfour",
+    "droidcommand_shieldadjustrearfour",
+    "cert_droid_astromech_5",
+    "droidcommand_shieldemergencyfront",
+    "droidcommand_shieldemergencyrear",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_novice: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "",
+  ],
+  xp: { id: "", cost: 0 },
+  commands: [
+    "private_imperial_navy_novice",
+    "cert_starships_tiefighterlight",
+    "cert_ordnance_level1",
+    "cert_droid_astromech_1",
+    "droidcommand_mutedroid",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_master: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_04",
+    "pilot_imperial_navy_weapons_04",
+    "pilot_imperial_navy_procedures_04",
+    "pilot_imperial_navy_droid_04",
+  ],
+  xp: { id: "space_combat_general", cost: 7500000 },
+  commands: [
+    "private_imperial_navy_master",
+    "cert_starships_decimator",
+    "cert_starships_tieoppressor",
+    "cert_ordnance_level9",
+    "cert_ordnance_levelten",
+    "cert_droid_astromech_6",
+    "bstrike3",
+    "cert_starships_firespray",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_starships_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "private_imperial_navy_starships_1",
+    "cert_starships_tiefighter",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_starships_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_01",
+    "pilot_imperial_navy_weapons_01",
+    "pilot_imperial_navy_procedures_01",
+    "pilot_imperial_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "private_imperial_navy_starships_2",
+    "cert_starships_tiefighterin",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_starships_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_02",
+    "pilot_imperial_navy_weapons_02",
+    "pilot_imperial_navy_procedures_02",
+    "pilot_imperial_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "private_imperial_navy_starships_3",
+    "cert_starships_tieinterceptor",
+    "cert_starships_tiebomber",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_starships_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_03",
+    "pilot_imperial_navy_weapons_03",
+    "pilot_imperial_navy_procedures_03",
+    "pilot_imperial_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "private_imperial_navy_starships_4",
+    "cert_starships_tieadvanced",
+    "cert_starships_tieaggressor",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_weapons_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "cert_ordnance_level2",
+    "cert_ordnance_level3",
+  ],
+  skillModifiers: {
+    missile_launching: 65,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_weapons_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_01",
+    "pilot_imperial_navy_weapons_01",
+    "pilot_imperial_navy_procedures_01",
+    "pilot_imperial_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "cert_ordnance_level4",
+    "cert_ordnance_level5",
+  ],
+  skillModifiers: {
+    missile_launching: 10,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_weapons_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_02",
+    "pilot_imperial_navy_weapons_02",
+    "pilot_imperial_navy_procedures_02",
+    "pilot_imperial_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "cert_ordnance_level6",
+    "cert_ordnance_level7",
+  ],
+  skillModifiers: {
+    missile_launching: 10,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_weapons_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_03",
+    "pilot_imperial_navy_weapons_03",
+    "pilot_imperial_navy_procedures_03",
+    "pilot_imperial_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "cert_ordnance_level8",
+  ],
+  skillModifiers: {
+    missile_launching: 15,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_procedures_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "pumpreactor",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_procedures_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_01",
+    "pilot_imperial_navy_weapons_01",
+    "pilot_imperial_navy_procedures_01",
+    "pilot_imperial_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "eweapons",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_procedures_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_02",
+    "pilot_imperial_navy_weapons_02",
+    "pilot_imperial_navy_procedures_02",
+    "pilot_imperial_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "bstrike1",
+    "nblast",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_procedures_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_03",
+    "pilot_imperial_navy_weapons_03",
+    "pilot_imperial_navy_procedures_03",
+    "pilot_imperial_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "bstrike2",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_imperial_navy_droid_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "private_imperial_navy_droid_1",
+    "droidcommand_weaponoverloadone",
+    "droidcommand_weaponeffeciencyone",
+    "droidcommand_weaponnormalize",
+    "droidcommand_engineoverloadone",
+    "droidcommand_engineefficiencyone",
+    "droidcommand_enginenormalize",
+    "cert_droid_astromech_2",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_droid_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_01",
+    "pilot_imperial_navy_weapons_01",
+    "pilot_imperial_navy_procedures_01",
+    "pilot_imperial_navy_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "private_imperial_navy_droid_2",
+    "droidcommand_weaponoverloadtwo",
+    "droidcommand_weaponeffeciencytwo",
+    "droidcommand_engineoverloadtwo",
+    "droidcommand_engineefficiencytwo",
+    "cert_droid_astromech_3",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_droid_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_02",
+    "pilot_imperial_navy_weapons_02",
+    "pilot_imperial_navy_procedures_02",
+    "pilot_imperial_navy_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "private_imperial_navy_droid_3",
+    "droidcommand_weaponoverloadthree",
+    "droidcommand_weaponeffeciencythree",
+    "droidcommand_engineoverloadthree",
+    "droidcommand_engineefficiencythree",
+    "cert_droid_astromech_4",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_imperial_navy_droid_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_imperial_navy_starships_03",
+    "pilot_imperial_navy_weapons_03",
+    "pilot_imperial_navy_procedures_03",
+    "pilot_imperial_navy_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "private_imperial_navy_droid_4",
+    "droidcommand_weaponoverloadfour",
+    "droidcommand_weaponeffeciencyfour",
+    "droidcommand_engineoverloadfour",
+    "droidcommand_engineefficiencyfour",
+    "cert_droid_astromech_5",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_novice: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "",
+  ],
+  xp: { id: "", cost: 0 },
+  commands: [
+    "private_neutral_novice",
+    "cert_starships_lighthuttfighter",
+    "cert_ordnance_level1",
+    "cert_droid_astromech_1",
+    "droidcommand_mutedroid",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_master: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_04",
+    "pilot_neutral_weapons_04",
+    "pilot_neutral_procedures_04",
+    "pilot_neutral_droid_04",
+  ],
+  xp: { id: "space_combat_general", cost: 7500000 },
+  commands: [
+    "private_neutral_master",
+    "cert_starships_yt1300",
+    "cert_ordnance_level9",
+    "cert_ordnance_levelten",
+    "cert_droid_astromech_6",
+    "ptrap2",
+    "epulse3",
+    "cert_starships_firespray",
+    "cert_starships_hutt_turret_ship",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_neutral_starships_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "private_neutral_starships_1",
+    "cert_starships_mediumhuttfighter",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_starships_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_01",
+    "pilot_neutral_weapons_01",
+    "pilot_neutral_procedures_01",
+    "pilot_neutral_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "private_neutral_starships_2",
+    "cert_starships_heavyhuttfighter",
+    "cert_starships_lightblacksunfighter",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_starships_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_02",
+    "pilot_neutral_weapons_02",
+    "pilot_neutral_procedures_02",
+    "pilot_neutral_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "private_neutral_starships_3",
+    "cert_starships_mediumblacksunfighter",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_starships_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_03",
+    "pilot_neutral_weapons_03",
+    "pilot_neutral_procedures_03",
+    "pilot_neutral_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "private_neutral_starships_4",
+    "cert_starships_heavyblacksunfighter",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_weapons_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "cert_ordnance_level2",
+    "cert_ordnance_level3",
+  ],
+  skillModifiers: {
+    missile_launching: 65,
+  },
+  schematics: [""]
+},
+pilot_neutral_weapons_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_01",
+    "pilot_neutral_weapons_01",
+    "pilot_neutral_procedures_01",
+    "pilot_neutral_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "cert_ordnance_level4",
+    "cert_ordnance_level5",
+  ],
+  skillModifiers: {
+    missile_launching: 10,
+  },
+  schematics: [""]
+},
+pilot_neutral_weapons_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_02",
+    "pilot_neutral_weapons_02",
+    "pilot_neutral_procedures_02",
+    "pilot_neutral_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "cert_ordnance_level6",
+    "cert_ordnance_level7",
+  ],
+  skillModifiers: {
+    missile_launching: 10,
+  },
+  schematics: [""]
+},
+pilot_neutral_weapons_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_03",
+    "pilot_neutral_weapons_03",
+    "pilot_neutral_procedures_03",
+    "pilot_neutral_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "cert_ordnance_level8",
+  ],
+  skillModifiers: {
+    missile_launching: 15,
+  },
+  schematics: [""]
+},
+pilot_neutral_procedures_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "ethrust",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_neutral_procedures_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_01",
+    "pilot_neutral_weapons_01",
+    "pilot_neutral_procedures_01",
+    "pilot_neutral_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "ptrap1",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_neutral_procedures_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_02",
+    "pilot_neutral_weapons_02",
+    "pilot_neutral_procedures_02",
+    "pilot_neutral_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "iffscramble",
+    "epulse1",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_neutral_procedures_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_03",
+    "pilot_neutral_weapons_03",
+    "pilot_neutral_procedures_03",
+    "pilot_neutral_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "epulse2",
+  ],
+  skillModifiers: {
+    pilot_special_tactics: 20,
+  },
+  schematics: [""]
+},
+pilot_neutral_droid_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_novice",
+  ],
+  xp: { id: "space_combat_general", cost: 7500 },
+  commands: [
+    "private_neutral_droid_1",
+    "droidcommand_reactoroverloadone",
+    "droidcommand_reactornormalize",
+    "cert_droid_astromech_2",
+    "droidcommand_weapcappowerupone",
+    "droidcommand_weapcapequalize",
+    "droidcommand_weapcaptoshieldone",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_droid_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_01",
+    "pilot_neutral_weapons_01",
+    "pilot_neutral_procedures_01",
+    "pilot_neutral_droid_01",
+  ],
+  xp: { id: "space_combat_general", cost: 60000 },
+  commands: [
+    "private_neutral_droid_2",
+    "droidcommand_reactoroverloadtwo",
+    "cert_droid_astromech_3",
+    "droidcommand_weapcappoweruptwo",
+    "droidcommand_weapcaptoshieldtwo",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_droid_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_02",
+    "pilot_neutral_weapons_02",
+    "pilot_neutral_procedures_02",
+    "pilot_neutral_droid_02",
+  ],
+  xp: { id: "space_combat_general", cost: 200000 },
+  commands: [
+    "private_neutral_droid_3",
+    "droidcommand_reactoroverloadthree",
+    "cert_droid_astromech_4",
+    "droidcommand_weapcappowerupthree",
+    "droidcommand_weapcaptoshieldthree",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+pilot_neutral_droid_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "pilot_neutral_starships_03",
+    "pilot_neutral_weapons_03",
+    "pilot_neutral_procedures_03",
+    "pilot_neutral_droid_03",
+  ],
+  xp: { id: "space_combat_general", cost: 1000000 },
+  commands: [
+    "private_neutral_droid_4",
+    "droidcommand_reactoroverloadfour",
+    "cert_droid_astromech_5",
+    "droidcommand_weapcappowerupfour",
+    "droidcommand_weapcaptoshieldfour",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+combat_gladiator_novice: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "",
+  ],
+  xp: { id: "combat_gladiator", cost: 5000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+combat_gladiator_master: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_thraex_04",
+    "combat_gladiator_murmillo_04",
+    "combat_gladiator_dimachaerus_04",
+    "combat_gladiator_secutor_04",
+  ],
+  xp: { id: "combat_gladiator", cost: 25000 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {},
+  schematics: [""]
+},
+combat_gladiator_thraex_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_novice",
+  ],
+  xp: { id: "combat_gladiator", cost: 6250 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_thraex_hit: 1,
+  },
+  schematics: [""]
+},
+combat_gladiator_thraex_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_thraex_01",
+  ],
+  xp: { id: "combat_gladiator", cost: 9375 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_thraex_hit: 2,
+  },
+  schematics: [""]
+},
+combat_gladiator_thraex_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_thraex_02",
+  ],
+  xp: { id: "combat_gladiator", cost: 12500 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_thraex_hit: 3,
+  },
+  schematics: [""]
+},
+combat_gladiator_thraex_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_thraex_03",
+  ],
+  xp: { id: "combat_gladiator", cost: 18750 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_thraex_hit: 4,
+  },
+  schematics: [""]
+},
+combat_gladiator_murmillo_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_novice",
+  ],
+  xp: { id: "combat_gladiator", cost: 6250 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_murmillo_defense: 1,
+  },
+  schematics: [""]
+},
+combat_gladiator_murmillo_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_murmillo_01",
+  ],
+  xp: { id: "combat_gladiator", cost: 9375 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_murmillo_defense: 2,
+  },
+  schematics: [""]
+},
+combat_gladiator_murmillo_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_murmillo_02",
+  ],
+  xp: { id: "combat_gladiator", cost: 12500 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_murmillo_defense: 3,
+  },
+  schematics: [""]
+},
+combat_gladiator_murmillo_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_murmillo_03",
+  ],
+  xp: { id: "combat_gladiator", cost: 18750 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_murmillo_defense: 4,
+  },
+  schematics: [""]
+},
+combat_gladiator_dimachaerus_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_novice",
+  ],
+  xp: { id: "combat_gladiator", cost: 6250 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_dimachaerus_hit: 1,
+  },
+  schematics: [""]
+},
+combat_gladiator_dimachaerus_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_dimachaerus_01",
+  ],
+  xp: { id: "combat_gladiator", cost: 9375 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_dimachaerus_hit: 2,
+  },
+  schematics: [""]
+},
+combat_gladiator_dimachaerus_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_dimachaerus_02",
+  ],
+  xp: { id: "combat_gladiator", cost: 12500 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_dimachaerus_hit: 3,
+  },
+  schematics: [""]
+},
+combat_gladiator_dimachaerus_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_dimachaerus_03",
+  ],
+  xp: { id: "combat_gladiator", cost: 18750 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_dimachaerus_hit: 4,
+  },
+  schematics: [""]
+},
+combat_gladiator_secutor_01: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_novice",
+  ],
+  xp: { id: "combat_gladiator", cost: 6250 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_secutor_defense: 1,
+  },
+  schematics: [""]
+},
+combat_gladiator_secutor_02: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_secutor_01",
+  ],
+  xp: { id: "combat_gladiator", cost: 9375 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_secutor_defense: 2,
+  },
+  schematics: [""]
+},
+combat_gladiator_secutor_03: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_secutor_02",
+  ],
+  xp: { id: "combat_gladiator", cost: 12500 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_secutor_defense: 3,
+  },
+  schematics: [""]
+},
+combat_gladiator_secutor_04: {
+  title: "",
+  skillPoints: 0,
+  preReqs: [
+    "combat_gladiator_secutor_03",
+  ],
+  xp: { id: "combat_gladiator", cost: 18750 },
+  commands: [
+    "",
+  ],
+  skillModifiers: {
+    combat_secutor_defense: 4,
   },
   schematics: [""]
 },
