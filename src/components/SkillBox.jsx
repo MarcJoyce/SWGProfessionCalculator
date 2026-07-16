@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { SKILL_TITLE } from "../CONSTANTS";
+import React from "react";
+import { SKILL_TITLE } from "../data";
 import { SkillBoxContainer } from "../styled-components";
 
 function SkillBox({
@@ -8,12 +8,6 @@ function SkillBox({
   handleActiveSkillChange,
   handleSkillChange,
 }) {
-  const [isHovered, setIsHovered] = useState(false);
-
-  useEffect(() => {
-    handleActiveSkillChange(data);
-  }, [isHovered]);
-
   const handleSkillChangeClick = (skill) => {
     if (isActive) {
       handleSkillChange({
@@ -26,18 +20,12 @@ function SkillBox({
         data: skill,
       });
     }
-
-    handleHover()
   };
-
-  const handleHover = () => {
-    setIsHovered((prev) => !prev)
-  }
 
   return (
     <SkillBoxContainer
       active={isActive}
-      onMouseOver={() => handleHover()}
+      onMouseEnter={() => handleActiveSkillChange(data)}
       onClick={() => handleSkillChangeClick(data)}
     >
       <p>{SKILL_TITLE[data]}</p>

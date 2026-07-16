@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { MainContainer, SkillContainer, SideContainer } from './styled-components';
+import { AppWrapper, MainContainer, SkillContainer, SideContainer } from './styled-components';
 import Professions from './components/Professions'
 import Experience from './components/Experience'
 import SkillModifiers from './components/SkillModifiers'
@@ -10,15 +10,17 @@ import Titles from './components/Titles';
 import SkillTree from './components/SkillTree'
 import ActiveSkillModifiers from './components/ActiveSkillModifiers'
 import ActiveCommandsAndCertifications from './components/ActiveCommandsAndCertifications'
-import { SKILLS, ALL_SPECIES } from './CONSTANTS'
+import { SKILLS, ALL_SPECIES } from './data'
 
 function App() {
 
   const [playerSkills, setPlayerSkills] = useState(() => {
-    const savedPlayerSkills = localStorage.getItem("playerSkills");
-    const initialValue = JSON.parse(savedPlayerSkills);
-    
-    return initialValue || [];
+    try {
+      const savedPlayerSkills = localStorage.getItem("playerSkills");
+      return savedPlayerSkills ? JSON.parse(savedPlayerSkills) : [];
+    } catch {
+      return [];
+    }
   });
   const [skillPointWarning, setSkillPointWarning] = useState(false)
   const [activeSkill, setActiveSkill] = useState('combat_brawler_novice');
@@ -35,11 +37,11 @@ function App() {
   }, [playerSkills])
 
   const handleProfessionChange = (newProf) => {
-    setActiveProfession(() => newProf)
+    setActiveProfession(newProf)
   }
 
   const handleActiveSkillChange = (skill) => {
-    setActiveSkill(() => skill)
+    setActiveSkill(skill)
   }
 
   const getSkillPoint = (skill) => {
@@ -60,22 +62,21 @@ function App() {
     if (action === 'add') {
       addSkillsToPlayer(data)
     } else if (action === 'reset') {
-      setPlayerSkills(() => [])
+      setPlayerSkills([])
     } else {
       removeSkillsFromPlayer(data)
     }
   }
 
   const addSkillsToPlayer = (skill) => {
-    let skillsToAdd = [skill];
+    const skillsToAdd = [skill];
+    const queued = new Set(skillsToAdd);
     for (let i = 0; i < skillsToAdd.length; i++) {
-      if (skillsToAdd[i] === "") {
-        i++
-      } else {
-        const preReqs = getPreReqs(skillsToAdd[i])
-        skillsToAdd = [...skillsToAdd, ...preReqs]
-        if (skillsToAdd[skillsToAdd.length - 1] === '') {
-          i++
+      const preReqs = getPreReqs(skillsToAdd[i])
+      for (const preReq of preReqs) {
+        if (preReq !== '' && !queued.has(preReq)) {
+          queued.add(preReq)
+          skillsToAdd.push(preReq)
         }
       }
     }
@@ -87,12 +88,9 @@ function App() {
     const newSkillSkillPoints = filteredSkills.reduce((acc, item) => getSkillPoint(item) + acc, 0)
 
     if (hasSkillPoints(newSkillSkillPoints)) {
-      const currentSkills = playerSkills
-      const newSkills = [...currentSkills, ...filteredSkills]
-
-      setPlayerSkills(() => newSkills)
+      setPlayerSkills([...playerSkills, ...filteredSkills])
     } else {
-      setSkillPointWarning(() => true)
+      setSkillPointWarning(true)
     }
   }
   const removeSkillsFromPlayer = (skill) => {
@@ -101,17 +99,17 @@ function App() {
        let removeSkills = [skill]
        for (let i = 0; i < removeSkills.length; i++) {
          for (let j = 0; j < activeSkills.length; j++) {
-          const skill = activeSkills[j]
+          const activeSkill = activeSkills[j]
           const preReqs = getPreReqs(activeSkills[j]);
           const removeSkill = removeSkills[i]
           const match = preReqs.includes(removeSkill)
-          if (match) removeSkills.push(skill)
+          if (match) removeSkills.push(activeSkill)
          }
        }
        const newSkills = activeSkills.filter((skill) => {
          return !removeSkills.includes(skill)
        })
-      setPlayerSkills(() => newSkills)
+      setPlayerSkills(newSkills)
   }
 
   const handleSpeciesChange = (species) => {
@@ -120,12 +118,12 @@ function App() {
       return !ALL_SPECIES.includes(item)
     })
     newSkills.push(species);
-    setPlayerSkills(() => newSkills);
+    setPlayerSkills(newSkills);
   }
 
   return (
-    <div>
-      <h1 style={{'color': '#fff', 'padding': '16px'}}>This calculator is unique to the SWGEMU-NAMFS server</h1>
+    <AppWrapper>
+      <h1 style={{'color': '#e5e7eb', 'padding': '16px', 'flexShrink': 0, 'fontSize': '1.4rem', 'letterSpacing': '0.06em', 'textTransform': 'uppercase', 'borderBottom': '1px solid rgba(148, 163, 184, 0.35)'}}>This calculator is unique to the SWG: New Beginnings server</h1>
     <MainContainer>
       <SideContainer>
         <Professions 
@@ -158,7 +156,7 @@ function App() {
           playerSkills={playerSkills} />
       </SideContainer>
     </MainContainer>
-          </div>
+    </AppWrapper>
   );
 }
 

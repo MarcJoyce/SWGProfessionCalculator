@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../styled-components'
-import { EXPERIENCE_TITLES, SKILLS } from '../CONSTANTS'
+import { EXPERIENCE_TITLES, SKILLS } from '../data'
 
 function Experience({playerSkills}) {
 

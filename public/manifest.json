@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SWG Calculator",
+  "name": "SWG Profession Calculator",
   "icons": [
     {
       "src": "favicon.ico",

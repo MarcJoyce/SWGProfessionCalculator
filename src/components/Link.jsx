@@ -1,5 +1,5 @@
 import React from 'react'
-import { SKILL_TITLE } from '../CONSTANTS'
+import { SKILL_TITLE } from '../data'
 
 function Link({data, handleProfessionChange}) {
 

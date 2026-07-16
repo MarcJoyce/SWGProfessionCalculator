@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ALL_SKILLS_WHICH_PROFESSION, NOVICE_SKILL, PROFESSIONS, ALL_SPECIES } from '../CONSTANTS'
+import { ALL_SKILLS_WHICH_PROFESSION, NOVICE_SKILL, PROFESSIONS, ALL_SPECIES } from '../data'
 import { Container } from '../styled-components'
 
 function Professions({playerSkills, handleProfessionChange}) {
@@ -22,7 +22,7 @@ function Professions({playerSkills, handleProfessionChange}) {
       <div className="innerContainer professions">
         {myProfessions ? 
           playerProfessions.map(item => {
-            return  <button key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>>> {item}</button>
+            return  <button key={item} onClick={() => handleProfessionChange(getProfessionId(item))}>{`>> ${item}`}</button>
            })
            :
            <>

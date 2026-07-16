@@ -4,8 +4,9 @@ import {
   ALL_PROFESSIONS,
   SKILL_TITLE,
   SKILLS,
-  ALL_SPECIES
-} from '../CONSTANTS';
+  ALL_SPECIES,
+  SPECIES_TITLE
+} from '../data';
 import SkillBranch from './SkillBranch';
 import SkillBox from './SkillBox';
 import Link from './Link';
@@ -25,16 +26,11 @@ function SkillTree({
     .map((item) => SKILLS[item].skillPoints)
     .reduce((acc, item) => item + acc, 0);
 
-  const [speciesSelected, setSpeciesSelected] = useState(false);
+  const [speciesSelected, setSpeciesSelected] = useState('');
 
   useEffect(() => {
-    const species = playerSkills
-      .map((item) => {
-        if (ALL_SPECIES.includes(item)) return item;
-        return false;
-      })
-      .filter((item) => item);
-    if (species.length > 0) setSpeciesSelected(species);
+    const species = playerSkills.find((item) => ALL_SPECIES.includes(item));
+    if (species) setSpeciesSelected(species);
   }, [playerSkills]);
 
   return (
@@ -42,15 +38,16 @@ function SkillTree({
       <select
         name='species'
         id='species'
+        value={speciesSelected}
         onChange={(e) => {
           handleSpeciesChange(e.target.value);
         }}>
-        <option value='' disabled selected={!speciesSelected}>
+        <option value='' disabled>
           Species:
         </option>
         {ALL_SPECIES.map((item) => {
           return (
-            <option value={item} selected={item == speciesSelected} >{item === "twilek" ? "Twi'Lek" : item.replace("_"," ")}</option>
+            <option key={item} value={item}>{SPECIES_TITLE[item]}</option>
           )
         })}
       </select>

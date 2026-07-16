@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../styled-components'
-import { SKILLS, SKILL_MOD, EXPERIENCE_TITLES } from '../CONSTANTS'
+import { SKILLS, SKILL_MOD, EXPERIENCE_TITLES } from '../data'
 
 function ActiveSkillModifiers({activeSkill}) {
 

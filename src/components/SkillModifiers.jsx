@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../styled-components'
-import { SKILLS, SKILL_MOD } from '../CONSTANTS'
+import { SKILLS, SKILL_MOD } from '../data'
 
 function SkillModifiers({playerSkills}) {
 

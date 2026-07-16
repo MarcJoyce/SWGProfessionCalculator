@@ -1,12 +1,46 @@
 import styled from 'styled-components';
 
-export const MainContainer = styled.div`
-  width: 100vw;
+export const AppWrapper = styled.div`
   height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  background-color: #020617;
+
+  &::before {
+    content: '';
+    position: fixed;
+    inset: -15%;
+    pointer-events: none;
+    z-index: 0;
+    background: radial-gradient(
+        circle at 22% 30%,
+        rgba(56, 189, 248, 0.25),
+        transparent 58%
+      ),
+      radial-gradient(circle at 78% 80%, rgba(59, 130, 246, 0.18), transparent 60%);
+    mix-blend-mode: screen;
+    opacity: 0.5;
+    filter: blur(16px);
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+`;
+
+export const MainContainer = styled.div`
+  width: 100%;
+  flex: 1;
+  min-height: 0;
   display: flex;
 
   @media only screen and (max-width: 968px) {
     flex-direction: column;
+    overflow-y: auto;
   }
 `;
 
@@ -38,9 +72,10 @@ export const SideContainer = styled.div`
 `;
 
 export const Container = styled.div`
-    border: 1px solid #36b2bc;
-    border-radius: 16px;
-    background-color: #00434c;
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    border-radius: 18px;
+    background: rgba(9, 13, 34, 0.96);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,29 +86,33 @@ export const Container = styled.div`
     h2 {
         text-align: center;
         margin-bottom: 8px;
-        color: white;
-        font-size: 1.1rem;
+        color: #e5e7eb;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
     }
-    
+
     h4 {
         text-align: center;
         margin-bottom: 8px;
-        color: white;
-        font-size: 0.9rem;
+        color: #e5e7eb;
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
 
         &.switch {
             cursor: pointer;
-            color: #e4f75d;
+            color: #facc15;
         }
     }
-    
-    .innerContainer { 
+
+    .innerContainer {
         width: 100%;
         flex: 1;
-        border: 1px solid #36b2bc;
-        border-radius: 16px;
-        background-color: #008ca7;
+        border: 1px solid rgba(148, 163, 184, 0.5);
+        border-radius: 14px;
+        background: linear-gradient(145deg, #020617, #030712);
         flex-direction: column;
         padding: 8px 0;
         overflow: auto;
@@ -82,9 +121,9 @@ export const Container = styled.div`
             display: flex;
 
             p {
-                border: 1px solid #36b2bc;
+                border: 1px solid rgba(148, 163, 184, 0.3);
                 border-top: 0px;
-                
+
             }
 
             p:first-child {
@@ -94,23 +133,24 @@ export const Container = styled.div`
             p:last-child {
                 flex: 3;
                 text-align: right;
+                color: #9ca3af;
             }
         }
 
         &::-webkit-scrollbar {
-            border-radius: 0 16px 16px 0;
+            border-radius: 0 14px 14px 0;
             overflow: hidden;
         }
 
         &::-webkit-scrollbar-thumb {
-            background-color: rgba(0, 96, 115, 1);
-            border-radius: 0 16px 16px 0;
+            background-color: rgba(96, 165, 250, 0.5);
+            border-radius: 0 14px 14px 0;
         }
     }
 
     button, p {
         display: block;
-        color: white;
+        color: #f5f5f5;
         text-decoration: none;
         font-size: 0.8rem;
         padding: 2px 8px;
@@ -130,7 +170,7 @@ export const Container = styled.div`
         text-align: left;
 
         &:hover {
-            background-color: #00434c
+            background-color: rgba(59, 130, 246, 0.18);
         }
     }
 
@@ -138,46 +178,61 @@ export const Container = styled.div`
         position: relative;
         min-width: 100%;
         height: 70%;
-        background-color: #0089a5;
         gap: 5px;
-        color: white;
+        color: #f5f5f5;
         font-weight: bold;
 
-        select { 
+        select {
             position: absolute;
-            left: 5px; 
-            background: #0089a5;
-            border: none;
-            color: #ffffff;
+            left: 5px;
+            top: 5px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(148, 163, 184, 0.5);
+            border-radius: 999px;
+            padding: 3px 10px;
+            color: #f5f5f5;
             font-weight: bold;
-            text-transform: capitalize; 
+            text-transform: capitalize;
         }
 
         .skillPointWarning {
-            color: red;
+            color: #fecaca;
             font-size: 1.2rem;
-            background-color: black;
+            background: rgba(220, 38, 38, 0.18);
+            border: 1px solid rgba(248, 113, 113, 0.6);
+            border-radius: 8px;
             font-weight: bolder;
             padding: 8px;
             margin: 4px;
         }
 
-        .skillPoints { 
+        .skillPoints {
             width: 50%;
             display: flex;
             justify-content: space-between;
             padding: 8px;
+            align-items: center;
 
             button {
-                background-color: rgb(230,0,0);
-                padding: 4px;
+                background: radial-gradient(
+                    circle at 20% 0%,
+                    rgba(248, 113, 113, 0.45),
+                    rgba(15, 23, 42, 0.92)
+                );
+                border: 1px solid rgba(248, 113, 113, 0.7);
+                color: #fee2e2;
+                padding: 6px 16px;
                 font-weight: bolder;
                 outline: none;
-                border: none;
-                border-radius: 0 4px 0 4px;
+                border-radius: 999px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
+
+                &:hover {
+                    box-shadow: 0 14px 32px rgba(248, 113, 113, 0.35);
+                }
             }
 
-            
+
         }
 
         span {
@@ -186,7 +241,7 @@ export const Container = styled.div`
         }
     }
 
-    .linkContainer { 
+    .linkContainer {
         border-radius: 0;
         border: none;
         width: 100%;
@@ -195,31 +250,32 @@ export const Container = styled.div`
         flex: 1;
         flex-direction: row;
         justify-content: space-evenly;
-        
+
         p {
             cursor: pointer;
             white-space: nowrap;
-            
+            color: #60a5fa;
+
             &:hover {
-                background-color: #00434c;
+                background-color: rgba(59, 130, 246, 0.18);
             }
         }
     }
 
-    .skillBranches { 
+    .skillBranches {
         width: 100%;
         height: 100%;
         display: flex;
     }
 
-    .skillBranch { 
+    .skillBranch {
         display: flex;
         flex: 1;
         flex-direction: column-reverse;
         align-items: flex-end;
         margin: 0 2px;
 
-        .linkContainer { 0
+        .linkContainer {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -228,7 +284,7 @@ export const Container = styled.div`
         }
     }
 
-    &.activeSkillModifiers  { 
+    &.activeSkillModifiers  {
         position: relative;
         height: 30%;
         width: 50%;
@@ -244,7 +300,7 @@ export const Container = styled.div`
         }
     }
 
-    &.activeSkillCommands { 
+    &.activeSkillCommands {
         position: relative;
         height: 30%;
         width: 50%;
@@ -272,7 +328,7 @@ export const Container = styled.div`
             min-height: auto;
         }
 
-        .skillBranch { 
+        .skillBranch {
             width: 25%;
         }
 
@@ -284,7 +340,7 @@ export const Container = styled.div`
             font-size: 0.8rem;
             white-space: nowrap;
         }
-        
+
         &.activeSkillCommands, &.activeSkillModifiers {
             height: auto;
         }
@@ -297,35 +353,41 @@ export const SkillBoxContainer = styled.div`
   min-height: 50px;
   padding: 4px;
   margin: 1px 0;
-  border-radius: 0 8px 0 8px;
-  border: 2px solid;
+  border-radius: 0 12px 0 12px;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${(props) => (props.active ? '#00a92e' : '#005f73')};
-  border-color: ${(props) => (props.active ? '#00434c' : '#00434c')};
+  background: ${(props) =>
+    props.active
+      ? 'linear-gradient(145deg, #16a34a, #15803d)'
+      : 'linear-gradient(145deg, #0f172a, #1e293b)'};
+  border-color: ${(props) => (props.active ? 'rgba(34, 197, 94, 0.9)' : 'rgba(148, 163, 184, 0.5)')};
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
   cursor: pointer;
   overflow: hidden;
 
   &:hover {
-    background-color: ${(props) => (props.active ? '#256729' : '#0089a5')};
-    border-color: ${(props) => (props.active ? '#65d775' : '#00434c')};
-    border: 4px 2px;
+    background: ${(props) =>
+      props.active
+        ? 'linear-gradient(145deg, #22c55e, #16a34a)'
+        : 'linear-gradient(145deg, #1e293b, #334155)'};
+    border-color: ${(props) => (props.active ? '#4ade80' : 'rgba(96, 165, 250, 0.8)')};
+    box-shadow: 0 10px 24px ${(props) => (props.active ? 'rgba(34, 197, 94, 0.35)' : 'rgba(59, 130, 246, 0.3)')};
 
     p {
-      color: ${(props) => (props.active ? '#e4f75d' : 'white')};
+      color: ${(props) => (props.active ? '#f0fdf4' : '#facc15')};
     }
   }
 
   p {
     border: none;
     text-align: center;
-    border: none;
     white-space: normal;
     font-weight: bold;
     line-height: 1rem;
-    color: ${(props) => (props.active ? 'black' : 'white')};
+    color: ${(props) => (props.active ? '#f0fdf4' : '#f5f5f5')};
   }
 
   @media only screen and (max-width: 968px) {
